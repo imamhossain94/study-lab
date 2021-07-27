@@ -6,36 +6,36 @@ The Study-Lab is an educational application that is developed to support the stu
 ## Screenshots
 <p align="center">
 
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image1.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image2.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image1.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image2.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image3.jpg" width="31%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image4.jpg" width="31%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image5.jpg" width="31%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image3.jpg" width="25%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image4.jpg" width="25%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image5.jpg" width="25%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image6.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image7.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image6.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image7.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image8.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image9.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image8.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image9.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image11.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image12.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image11.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image12.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image13.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image14.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image13.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image14.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image15.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image16.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image15.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image16.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image17.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image18.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image17.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image18.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image19.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image20.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image19.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image20.jpg" width="40%">
   <br />
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image21.jpg" width="48%"> &nbsp;
-  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image22.jpg" width="48%">
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image21.jpg" width="40%"> &nbsp;
+  <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image22.jpg" width="40%">
   
 </p>
 
