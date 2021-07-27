@@ -47,7 +47,6 @@ import com.newage.studlab.Plugins.StudLabAssistant
 import com.newage.studlab.Plugins.StudLabAssistant.Companion.textSemesterToNumber
 import com.newage.studlab.Plugins.StudLabGenerate
 import com.newage.studlab.R
-import com.newage.studlab.Services.SrNotificationService.NotificationEventReceiver
 import com.squareup.picasso.NetworkPolicy
 import com.squareup.picasso.Picasso
 import es.dmoral.toasty.Toasty

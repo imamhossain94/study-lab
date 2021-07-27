@@ -74,6 +74,7 @@ class StudLab: Application() {
 
         FirebaseApp.initializeApp(this)
         val isMain = isMainProcess(this)
+
         if (!isMain) {
             // other things
             AlarmBroadcastReceiver().setAlarm(this)

@@ -40,7 +40,6 @@ import com.newage.studlab.Model.UserModel.Users
 import com.newage.studlab.Plugins.StudLabGenerate
 import com.newage.studlab.R
 import com.newage.studlab.Services.AlarmBroadcastReceiver
-import com.newage.studlab.Services.SrNotificationService.NotificationEventReceiver
 
 
 import es.dmoral.toasty.Toasty

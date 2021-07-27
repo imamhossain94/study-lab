@@ -1,6 +1,6 @@
 package com.newage.studlab.Authentication.Verification
 
-import android.annotation.SuppressLint
+
 import android.content.Intent
 import android.os.Bundle
 import android.provider.Settings
@@ -16,7 +16,6 @@ import com.newage.studlab.Authentication.Introduction
 import com.newage.studlab.R
 import com.shuhart.stepview.StepView
 import io.github.tonnyl.light.Light
-import kotlinx.android.synthetic.main.activity_log_in.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUpActivity : AppCompatActivity(), NetworkStateListener{
@@ -67,31 +66,36 @@ class SignUpActivity : AppCompatActivity(), NetworkStateListener{
     }
 
     override fun onBackPressed() {
-        if(currentStapes == 1){
-            overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right)
-            startActivity(Intent(this, Introduction::class.java))
-            finish()
+        when (currentStapes) {
+            1 -> {
+                overridePendingTransition(R.anim.enter_right_to_left, R.anim.exit_left_to_right)
+                startActivity(Intent(this, Introduction::class.java))
+                finish()
 
-        }else if(currentStapes == 2){
-            stepView.go(0,true)
+            }
+            2 -> {
+                stepView.go(0,true)
 
-            supportFragmentManager.beginTransaction().setCustomAnimations(R.anim.enter_left_to_right, R.anim.exit_left_to_right,0,0)
-                .replace(R.id.sign_up_fragment_container, fragments[0])
-                .addToBackStack(null)
-                .commit()
-        }else if(currentStapes == 3){
+                supportFragmentManager.beginTransaction().setCustomAnimations(R.anim.enter_left_to_right, R.anim.exit_left_to_right,0,0)
+                    .replace(R.id.sign_up_fragment_container, fragments[0])
+                    .addToBackStack(null)
+                    .commit()
+            }
+            3 -> {
 
-            stepView.go(1,true)
-            supportFragmentManager.beginTransaction().setCustomAnimations(R.anim.enter_left_to_right, R.anim.exit_left_to_right,0,0)
-                .replace(R.id.sign_up_fragment_container, fragments[1])
-                .addToBackStack(null)
-                .commit()
+                stepView.go(1,true)
+                supportFragmentManager.beginTransaction().setCustomAnimations(R.anim.enter_left_to_right, R.anim.exit_left_to_right,0,0)
+                    .replace(R.id.sign_up_fragment_container, fragments[1])
+                    .addToBackStack(null)
+                    .commit()
+            }
         }
     }
 
 
-    @SuppressLint("MissingSuperCall")
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?){
+        super.onActivityResult(requestCode, resultCode, data)
         for (fragment in supportFragmentManager.fragments) {
             fragment.onActivityResult(requestCode, resultCode, data)
         }

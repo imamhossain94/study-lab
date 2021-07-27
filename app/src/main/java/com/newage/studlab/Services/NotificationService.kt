@@ -15,7 +15,6 @@ import com.newage.studlab.Database.DatabaseHelper
 import com.newage.studlab.Home.HomeMainActivity
 import com.newage.studlab.Model.AnnexModel.SmartRoutine
 import com.newage.studlab.R
-import com.newage.studlab.Services.SrNotificationService.NotificationEventReceiver
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -590,7 +589,7 @@ class NotificationService {
         mBuilder!!.build().flags = Notification.FLAG_NO_CLEAR or Notification.PRIORITY_LOW
         mBuilder!!.setContent(contentView)
 
-        mBuilder!!.setDeleteIntent(NotificationEventReceiver.getDeleteIntent(appContext))
+        //mBuilder!!.setDeleteIntent(NotificationEventReceiver.getDeleteIntent(appContext))
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channelId = "channel_id"
