@@ -5,6 +5,7 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.pm.PackageManager
 import android.widget.Toast
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -62,7 +63,7 @@ class StudLab: Application() {
 
         //for network status
         NetworkConfig.initNetworkConfig(this)
-
+        FirebaseApp.initializeApp(this)
         FirebaseDatabase.getInstance().setPersistenceEnabled(true)
         val scoresRef = FirebaseDatabase.getInstance().getReference("studlab")
         scoresRef.keepSynced(true)
