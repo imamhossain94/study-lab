@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.jcminarro.roundkornerlayout.RoundKornerFrameLayout
+            android:id="@+id/containerLayout"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            app:bottom_left_corner_radius="10dp"
+            app:bottom_right_corner_radius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:top_left_corner_radius="10dp"
+            app:top_right_corner_radius="10dp">
+
+            <ImageView
+                android:id="@+id/prog_dept_image"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </com.jcminarro.roundkornerlayout.RoundKornerFrameLayout>
+
+        <TextView
+            android:id="@+id/prog_dept_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Department of Computer Science &amp; Engineering"
+            android:textColor="#2962FF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/prog_faculty_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/containerLayout"
+            app:layout_constraintTop_toTopOf="@+id/containerLayout"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/prog_faculty_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/montserrat_regular"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Faculty of Applied Science"
+            android:textColor="#2962FF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/containerLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/containerLayout"
+            app:layout_constraintTop_toTopOf="@+id/containerLayout" />
+
+        <TextView
+            android:id="@+id/prog_user_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Student: 1200 Faculty:200"
+            android:textColor="#2962FF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/containerLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/containerLayout"
+            app:layout_constraintTop_toBottomOf="@+id/prog_faculty_title" />
+
+        <Button
+            android:id="@+id/item_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/home_page_item_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

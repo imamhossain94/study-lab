@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home.NotificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#2962FF"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:id="@+id/fragment_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:padding="15dp"
+                app:srcCompat="@drawable/left_arraow" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Cal. Sem. Fees"
+            android:textAllCaps="false"
+            android:textColor="#2962FF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/fragment_button_container"
+            app:layout_constraintEnd_toStartOf="@+id/fragment_button_container_left"
+            app:layout_constraintStart_toEndOf="@+id/fragment_button_container"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            app:cardBackgroundColor="#2962FF"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:id="@+id/fragment_link_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:padding="15dp"
+                app:srcCompat="@drawable/goto_link_icon" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:paddingStart="0dp"
+                android:paddingEnd="5dp"
+                android:text="Fees list of all departments"
+                android:textColor="@color/colorBlue2"
+                android:textSize="18sp" />
+
+            <com.jsibbold.zoomage.ZoomageView
+                android:id="@+id/fees_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F2F2F2"
+                android:minHeight="200dp"
+                app:zoomage_animateOnReset="true"
+                app:zoomage_autoCenter="true"
+                app:zoomage_autoResetMode="UNDER"
+                app:zoomage_maxScale="8"
+                app:zoomage_minScale="1"
+                app:zoomage_restrictBounds="false"
+                app:zoomage_translatable="true"
+                app:zoomage_zoomable="true" />
+
+            <TextView
+                android:id="@+id/calculate_result_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:paddingStart="0dp"
+                android:paddingEnd="5dp"
+                android:text="Calulated results:"
+                android:textColor="@color/colorBlue2"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/result_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F2F2F2"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/res_total_fees"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="5dp"
+                    android:text="Total fee:"
+                    android:textColor="@color/colorBlue2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/res_total_waiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="5dp"
+                    android:text="Total waiver:"
+                    android:textColor="@color/colorBlue2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/res_after_waiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/open_sans_regular"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="5dp"
+                    android:text="Fees after waiver:"
+                    android:textColor="@color/colorBlue2"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/total_credit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/square_round_white_blue_strok"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|left"
+                android:hint="Total credit on semester"
+                android:minHeight="40dp"
+                android:paddingStart="15dp"
+                android:textColor="@color/colorBlue2"
+                android:textColorHint="@color/colorBlue2"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/per_credit_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/square_round_white_blue_strok"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|left"
+                android:hint="Per credit fee"
+                android:minHeight="40dp"
+                android:paddingStart="15dp"
+                android:textColor="@color/colorBlue2"
+                android:textColorHint="@color/colorBlue2"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/reg_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/square_round_white_blue_strok"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|left"
+                android:hint="Registration fee"
+                android:minHeight="40dp"
+                android:paddingStart="15dp"
+                android:textColor="@color/colorBlue2"
+                android:textColorHint="@color/colorBlue2"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/total_waiver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/square_round_white_blue_strok"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|left"
+                android:hint="Waiver 0%"
+                android:minHeight="40dp"
+                android:paddingStart="15dp"
+                android:textColor="@color/colorBlue2"
+                android:textColorHint="@color/colorBlue2"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/lculate_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/intro_button_blue"
+                android:text="Calculate"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

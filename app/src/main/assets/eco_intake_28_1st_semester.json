@@ -1,0 +1,26 @@
+[
+ {
+   "Student_ID": 17181106001,
+   "Student_Name": "Marufa Akhter Dina",
+   "Student_Cgpa": "A\n0.00",
+   "Student_Sgpa": null
+ },
+ {
+   "Student_ID": 17181106002,
+   "Student_Name": "Md. Arfan Hossain",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": null
+ },
+ {
+   "Student_ID": 17181106004,
+   "Student_Name": "Md. Shoriful Islam",
+   "Student_Cgpa": "0.56",
+   "Student_Sgpa": 0.56
+ },
+ {
+   "Student_ID": 17181106005,
+   "Student_Name": "Md. Rashed Alam",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": 0
+ }
+]

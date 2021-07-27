@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorOrange">#EF5350</color>
+    <color name="colorBlue">#3498DB</color>
+    <color name="colorBlue2">#2962FF</color>
+    <color name="colorDeepBlue">#0288D1</color>
+    <color name="colorBlueDisabled">#9FA8DA</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorCard">#DFE0DD</color>
+    <color name="colorWhiteBackground">#FAFAFA</color>
+    <color name="book">#552962FF</color>
+    <color name="colorWhiteGray">#FBE9E7</color>
+    <color name="colorRecycler">#54E3F2FD</color>
+
+    <color name="colorActionBar">#022741</color>
+    <color name="colorDarkGray">#010A13</color>
+
+    <color name="facebookBlue">#3F5996</color>
+    <color name="twitterBlue">#29C5F6</color>
+    <color name="googleRed">#D03E2F</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="textColor">#6e6e6e</color>
+
+    <color name="colorGreen">#4CAF50</color>
+
+    <color name="actionbar_color">#BF360C</color>
+    <color name="drawer_arrow_second_color">#0E1961</color>
+
+    <color name="colorGreenTransparent">#804CAF50</color>
+    <color name="colorBlueTransparent">#802962FF</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_icon_svg"
+        android:title="Home"
+        android:enabled="true"
+        app:cnb_iconColor="#3977FE"/>
+
+    <item
+        android:id="@+id/nav_blood"
+        android:icon="@drawable/blood_icon_svg"
+        android:title="Blood Bank"
+        app:cnb_iconColor="@color/colorRed"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile_icon_svg"
+        android:title="Profile"
+        app:cnb_iconColor="@color/drawer_arrow_second_color"/>
+
+    <item
+        android:id="@+id/nav_lab"
+        android:icon="@drawable/library_book_icon_svg"
+        android:title="Library"
+        app:cnb_iconColor="@color/colorBlue"/>
+
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/more_icon_svg"
+        android:title="More"
+        app:cnb_iconColor="#2962FF" />
+
+
+
+</menu>

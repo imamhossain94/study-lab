@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="448dp"
+    android:height="448dp"
+    android:viewportWidth="448"
+    android:viewportHeight="448">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80 80h96v96h-96zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80 272h96v96h-96zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M272 272h96v96h-96zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M272 80h96v96h-96zm0 0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M448 48c0-26.507812-21.492188-48-48-48h-352c-26.507812 0-48 21.492188-48 48v352c0 26.507812 21.492188 48 48 48h352c26.507812 0 48-21.492188 48-48zm-240 320c0 17.671875-14.328125 32-32 32h-96c-17.671875 0-32-14.328125-32-32v-96c0-17.671875 14.328125-32 32-32h96c17.671875 0 32 14.328125 32 32zm0-192c0 17.671875-14.328125 32-32 32h-96c-17.671875 0-32-14.328125-32-32v-96c0-17.671875 14.328125-32 32-32h96c17.671875 0 32 14.328125 32 32zm192 192c0 17.671875-14.328125 32-32 32h-96c-17.671875 0-32-14.328125-32-32v-96c0-17.671875 14.328125-32 32-32h96c17.671875 0 32 14.328125 32 32zm0-192c0 17.671875-14.328125 32-32 32h-96c-17.671875 0-32-14.328125-32-32v-96c0-17.671875 14.328125-32 32-32h96c17.671875 0 32 14.328125 32 32zm0 0" />
+</vector>

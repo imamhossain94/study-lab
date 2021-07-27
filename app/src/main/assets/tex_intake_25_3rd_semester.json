@@ -1,0 +1,80 @@
+[
+ {
+   "Student_ID": 18191107002,
+   "Student_Name": "Md. Mehedi Hasan Noyon",
+   "Student_Cgpa": 2.87,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 18191107003,
+   "Student_Name": "Md Sojib Islam",
+   "Student_Cgpa": 3.27,
+   "Student_Sgpa": 3.27
+ },
+ {
+   "Student_ID": 18191107004,
+   "Student_Name": "Ashraful  Alam",
+   "Student_Cgpa": 3.39,
+   "Student_Sgpa": 3.35
+ },
+ {
+   "Student_ID": 18191107006,
+   "Student_Name": "Md. Maruf Hosen",
+   "Student_Cgpa": 3.67,
+   "Student_Sgpa": 3.51
+ },
+ {
+   "Student_ID": 18191107008,
+   "Student_Name": "Titu Chandra Sutradar",
+   "Student_Cgpa": 3.45,
+   "Student_Sgpa": 3.56
+ },
+ {
+   "Student_ID": 18191107009,
+   "Student_Name": "Arafat  Zia",
+   "Student_Cgpa": 3.65,
+   "Student_Sgpa": 3.63
+ },
+ {
+   "Student_ID": 18191107010,
+   "Student_Name": "Md. Tahidul Islam",
+   "Student_Cgpa": 2.93,
+   "Student_Sgpa": 3.28
+ },
+ {
+   "Student_ID": 18191107012,
+   "Student_Name": "Nur Mohammad Akash",
+   "Student_Cgpa": 1.97,
+   "Student_Sgpa": 1.39
+ },
+ {
+   "Student_ID": 18191107013,
+   "Student_Name": "Jahirul Islam Shamim",
+   "Student_Cgpa": 3.12,
+   "Student_Sgpa": 3.38
+ },
+ {
+   "Student_ID": 18191107014,
+   "Student_Name": "Mehenaz  Arefin",
+   "Student_Cgpa": 2.62,
+   "Student_Sgpa": 2.18
+ },
+ {
+   "Student_ID": 18191107015,
+   "Student_Name": "Md. Rasel Rana",
+   "Student_Cgpa": 3.29,
+   "Student_Sgpa": 3.46
+ },
+ {
+   "Student_ID": 18191107016,
+   "Student_Name": "Md. Arafat Ahamed\nBhuiyan",
+   "Student_Cgpa": 3.58,
+   "Student_Sgpa": 3.6
+ },
+ {
+   "Student_ID": 18191107018,
+   "Student_Name": "Tajkia  Akter",
+   "Student_Cgpa": 3.58,
+   "Student_Sgpa": 3.79
+ }
+]

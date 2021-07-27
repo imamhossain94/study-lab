@@ -1,0 +1,56 @@
+[
+ {
+   "Student_ID": 18191106001,
+   "Student_Name": "Fahima Aktar Rumi",
+   "Student_Cgpa": 2.3,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 18191106002,
+   "Student_Name": "Faiza Jahan Khan Nikita",
+   "Student_Cgpa": 2.44,
+   "Student_Sgpa": 2.19
+ },
+ {
+   "Student_ID": 18191106003,
+   "Student_Name": "Tasnim Mahmuda\nChowdhury",
+   "Student_Cgpa": 3.84,
+   "Student_Sgpa": 3.88
+ },
+ {
+   "Student_ID": 18191106005,
+   "Student_Name": "Md Yousuf Rifat",
+   "Student_Cgpa": 2.29,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 18191106006,
+   "Student_Name": "Faria  Islam",
+   "Student_Cgpa": 3.53,
+   "Student_Sgpa": 3.5
+ },
+ {
+   "Student_ID": 18191106007,
+   "Student_Name": "Taj  Mohammad",
+   "Student_Cgpa": 1.97,
+   "Student_Sgpa": 2.38
+ },
+ {
+   "Student_ID": 18191106008,
+   "Student_Name": "Sharmin  Aktar",
+   "Student_Cgpa": 2.38,
+   "Student_Sgpa": 2.63
+ },
+ {
+   "Student_ID": 18191106009,
+   "Student_Name": "Shamima Sharmin Mim",
+   "Student_Cgpa": 2.67,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 18191106012,
+   "Student_Name": "Fatema  Islam",
+   "Student_Cgpa": 3.06,
+   "Student_Sgpa": 3.5
+ }
+]

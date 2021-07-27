@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_book"
+        android:icon="@drawable/book_icon_svg"
+        android:title="Books"
+        app:cnb_iconColor="#3977FE"/>
+
+    <item
+        android:id="@+id/nav_slide"
+        android:icon="@drawable/ppt_icon_main_svg"
+        android:title="Slides"
+        app:cnb_iconColor="#3977FE"/>
+
+    <item
+        android:id="@+id/nav_sheet"
+        android:icon="@drawable/sheet_icon_svg"
+        android:title="Sheets"
+        app:cnb_iconColor="#3977FE"/>
+
+    <item
+        android:id="@+id/nav_lecture"
+        android:icon="@drawable/lecture_icon_svg"
+        android:title="Lectures"
+        app:cnb_iconColor="#3977FE"/>
+
+    <item
+        android:id="@+id/nav_suggestion"
+        android:icon="@drawable/suggestion_icon_svg"
+        android:title="Suggestion"
+        app:cnb_iconColor="#3977FE"/>
+</menu>

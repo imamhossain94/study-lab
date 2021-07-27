@@ -1,0 +1,68 @@
+[
+ {
+   "Student_ID": 18191108001,
+   "Student_Name": "Abdus Samad Jaber",
+   "Student_Cgpa": 2.89,
+   "Student_Sgpa": 2.05
+ },
+ {
+   "Student_ID": 18191108004,
+   "Student_Name": "Md. Rakibul Hasan",
+   "Student_Cgpa": 2.1,
+   "Student_Sgpa": 2.05
+ },
+ {
+   "Student_ID": 18191108005,
+   "Student_Name": "Rakesh Kanti Mondal",
+   "Student_Cgpa": 3.48,
+   "Student_Sgpa": 3.3
+ },
+ {
+   "Student_ID": 18191108008,
+   "Student_Name": "Md. Arif Hossain",
+   "Student_Cgpa": 2.63,
+   "Student_Sgpa": 3.03
+ },
+ {
+   "Student_ID": 18191108009,
+   "Student_Name": "Md. Saju Uddin",
+   "Student_Cgpa": 1.26,
+   "Student_Sgpa": 0.97
+ },
+ {
+   "Student_ID": 18191108010,
+   "Student_Name": "Md. Shahriar Khan Ani",
+   "Student_Cgpa": 1.21,
+   "Student_Sgpa": 0.86
+ },
+ {
+   "Student_ID": 18191108011,
+   "Student_Name": "Asif Eakball Emon",
+   "Student_Cgpa": 3.65,
+   "Student_Sgpa": 3.95
+ },
+ {
+   "Student_ID": 18191108012,
+   "Student_Name": "Suva  Sarkar",
+   "Student_Cgpa": 2.68,
+   "Student_Sgpa": 2.72
+ },
+ {
+   "Student_ID": 18191108013,
+   "Student_Name": "Abu  Saleh",
+   "Student_Cgpa": 1.89,
+   "Student_Sgpa": 1.47
+ },
+ {
+   "Student_ID": 18191108014,
+   "Student_Name": "Anika  Tabassum",
+   "Student_Cgpa": 3.24,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 18191108015,
+   "Student_Name": "Talebur  Rahman",
+   "Student_Cgpa": 2.57,
+   "Student_Sgpa": 2.63
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+   "Student_ID": 17182106001,
+   "Student_Name": "Aniruddha  Samadder",
+   "Student_Cgpa": 3.15,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 17182106003,
+   "Student_Name": "Jannathullah  Joy",
+   "Student_Cgpa": 3.52,
+   "Student_Sgpa": 3.25
+ },
+ {
+   "Student_ID": 17182106004,
+   "Student_Name": "Jannatul  Ferdus",
+   "Student_Cgpa": 3.13,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 17182106005,
+   "Student_Name": "Nur  Alam",
+   "Student_Cgpa": 3.69,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17182106006,
+   "Student_Name": "Farha  Khan",
+   "Student_Cgpa": 3.9,
+   "Student_Sgpa": 3.94
+ },
+ {
+   "Student_ID": 17182106007,
+   "Student_Name": "Nahid Afrose",
+   "Student_Cgpa": 3.46,
+   "Student_Sgpa": 3.56
+ },
+ {
+   "Student_ID": 17182106009,
+   "Student_Name": "Most. Romana Afroj Asha",
+   "Student_Cgpa": 3.6,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17182106010,
+   "Student_Name": "Tanny  Akter",
+   "Student_Cgpa": 3.73,
+   "Student_Sgpa": 3.88
+ },
+ {
+   "Student_ID": 17182106011,
+   "Student_Name": "Sayma  Sultana",
+   "Student_Cgpa": 3.73,
+   "Student_Sgpa": 3.94
+ },
+ {
+   "Student_ID": 17182106014,
+   "Student_Name": "Nur Atika Anni",
+   "Student_Cgpa": 3.67,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17182106015,
+   "Student_Name": "Saikat  Mahmud",
+   "Student_Cgpa": 2.2,
+   "Student_Sgpa": 2.44
+ },
+ {
+   "Student_ID": 17182106016,
+   "Student_Name": "Sakira Afrose Toma",
+   "Student_Cgpa": 3.92,
+   "Student_Sgpa": 3.94
+ },
+ {
+   "Student_ID": 17182106018,
+   "Student_Name": "Fariya Alam Eva",
+   "Student_Cgpa": 2.98,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17182106019,
+   "Student_Name": "Md. Sagor Ahmmed",
+   "Student_Cgpa": 2.9,
+   "Student_Sgpa": 2.56
+ },
+ {
+   "Student_ID": 17182106020,
+   "Student_Name": "Tanima Zaman Adri",
+   "Student_Cgpa": 3.77,
+   "Student_Sgpa": 3.88
+ },
+ {
+   "Student_ID": 17182106021,
+   "Student_Name": "Md. Ridwanul Karim\nTamim Arafat",
+   "Student_Cgpa": 3.88,
+   "Student_Sgpa": 3.94
+ },
+ {
+   "Student_ID": 17182106022,
+   "Student_Name": "Tania Akter",
+   "Student_Cgpa": 2.8,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17182106024,
+   "Student_Name": "Mahdi Hashmi Rahil",
+   "Student_Cgpa": 3.22,
+   "Student_Sgpa": 2.69
+ }
+]

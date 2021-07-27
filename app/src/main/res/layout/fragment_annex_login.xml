@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F7F9"
+    app:cardCornerRadius="30dp">
+
+    <ImageView
+        android:id="@+id/annex_close_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/squar_round_white_button"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cross" />
+
+    <com.newage.studlab.Animation.RippleBackground
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/id_edittext_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rb_color="#2962FF"
+        app:rb_duration="3000"
+        app:rb_radius="90dp"
+        app:rb_rippleAmount="6"
+        app:rb_scale="2.5">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerInParent="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            app:cardCornerRadius="125dp"
+            app:cardElevation="30dp"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="80dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:src="@drawable/annex_logo" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </com.newage.studlab.Animation.RippleBackground>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/id_edittext_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/password_edittext_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/log_in_user_id"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/sign_up_user_id_exittext"
+                android:enabled="true"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|start"
+                android:hint="Enter Your ID"
+                android:inputType="number"
+                android:maxLength="11"
+                android:paddingStart="90dp"
+                android:paddingEnd="15dp"
+                android:textColor="#2962FF"
+                android:textColorHint="#CE2962FF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/login_id_image"
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:background="@drawable/sign_up_user_id_exittext_button"
+                android:padding="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/annex_white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/password_edittext_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="40dp"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/password_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/log_in__password"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/sign_up_user_id_exittext"
+                android:enabled="true"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|start"
+                android:hint="Enter Password"
+                android:inputType="numberPassword"
+                android:paddingStart="90dp"
+                android:paddingEnd="15dp"
+                android:textColor="#2962FF"
+                android:textColorHint="#CE2962FF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/log_in_password_image"
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:background="@drawable/sign_up_user_id_exittext_button"
+                android:padding="22dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/key" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/password_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="40dp"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/annex_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/intro_button_blue"
+            android:text="LOG IN"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

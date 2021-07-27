@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    app:layout_dodgeInsetEdges="bottom"
+    tools:context=".Authentication.Verification.SignUpActivity">
+
+
+    <FrameLayout
+        android:id="@+id/sign_up_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FAFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/step_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <com.shuhart.stepview.StepView
+            android:id="@+id/step_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/sign_up_next_button"
+            app:layout_constraintEnd_toEndOf="@+id/sign_up_next_button"
+            app:layout_constraintStart_toStartOf="@+id/sign_up_next_button"
+            app:sv_animationType="Line"
+            app:sv_doneCircleColor="@color/colorGreen"
+            app:sv_doneCircleRadius="12dp"
+            app:sv_doneStepLineColor="@color/colorGreen"
+            app:sv_doneStepMarkColor="@color/colorWhite"
+            app:sv_nextStepCircleColor="#9FA8DA"
+            app:sv_nextStepCircleEnabled="true"
+            app:sv_nextStepLineColor="#90CAF9"
+            app:sv_nextTextColor="#FFFFFF"
+            app:sv_selectedCircleColor="#2962FF"
+            app:sv_selectedCircleRadius="12dp"
+            app:sv_selectedStepNumberColor="@color/colorWhite"
+            app:sv_selectedTextColor="#2962FF"
+            app:sv_stepLineWidth="1dp"
+            app:sv_stepNumberTextSize="12sp"
+            app:sv_stepPadding="4dp"
+            app:sv_stepViewStyle="@style/StepView"
+            app:sv_stepsNumber="3" />
+
+        <Button
+            android:id="@+id/sign_up_next_button"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/intro_button_green"
+            android:enabled="true"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</LinearLayout>

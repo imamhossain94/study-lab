@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/compare_profile_contasiner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_view_background"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="17dp"
+                android:src="@drawable/info_icon_blue_svg" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:gravity="center|start"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="Enter two students id to compare there results by semesters. "
+                android:textColor="@color/colorBlue2" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/id_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/square_round_white_blue_strok"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center|left"
+            android:hint="First stdents id"
+            android:minHeight="40dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/colorBlue2"
+            android:textColorHint="@color/colorBlue2"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/id_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/square_round_white_green_strok"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center|left"
+            android:hint="Second stdents id"
+            android:minHeight="40dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/color_success"
+            android:textColorHint="@color/color_success"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/compare_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/intro_button_blue"
+            android:text="Compare"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/intro_signup_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intro_text_view" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

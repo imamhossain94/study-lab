@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/file_path_container"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_button_container">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/search_box"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/search_exittext"
+                android:enabled="true"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center|start"
+                android:hint="Search"
+                android:inputType="textFilter"
+                android:maxLength="11"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:singleLine="true"
+                android:textColor="#2962FF"
+                android:textColorHint="#2962FF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/sign_up_identification_search_button"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:padding="12dp"
+                android:src="@drawable/search_blue"
+                app:layout_constraintBottom_toBottomOf="@+id/sign_up_identification_user_id"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_button_container_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        app:cardBackgroundColor="#2962FF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/sort_by_spinner"
+            style="@style/Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/colorBlue2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <ImageView
+            android:id="@+id/fragment_sort_by_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="17dp"
+            app:srcCompat="@drawable/down_arrow_white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_button_container"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="#2962FF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/fragment_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            app:srcCompat="@drawable/left_arraow" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/fragment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="TEACHER"
+        android:textAllCaps="false"
+        android:textColor="#2962FF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_button_container"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_button_container_left"
+        app:layout_constraintStart_toEndOf="@+id/fragment_button_container"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.chauthai.overscroll.RecyclerViewBouncy
+        android:id="@+id/fragment_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="5dp"
+        android:layoutAnimation="@anim/layout_animation_from_bottom"
+        android:padding="5dp"
+        app:friction="200"
+        app:gapLimit="220"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/file_path_container"
+        app:maxAdapterSizeToEstimate="20"
+        app:speedFactor="5"
+        app:tension="1000"
+        app:viewCountEstimateSize="5" />
+
+    <TextView
+        android:id="@+id/fragment_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fragment_recycler_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

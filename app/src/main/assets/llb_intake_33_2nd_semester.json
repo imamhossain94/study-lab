@@ -1,0 +1,206 @@
+[
+ {
+   "Student_ID": 17181105001,
+   "Student_Name": "Seikh Sharuz Hasan",
+   "Student_Cgpa": 2.38,
+   "Student_Sgpa": 2.81
+ },
+ {
+   "Student_ID": 17181105002,
+   "Student_Name": "Aeasin  Arafat",
+   "Student_Cgpa": 2.88,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17181105003,
+   "Student_Name": "Ashfaqe  Siddique",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17181105004,
+   "Student_Name": "Ummey Mymuna Iram",
+   "Student_Cgpa": 3.16,
+   "Student_Sgpa": 3.38
+ },
+ {
+   "Student_ID": 17181105005,
+   "Student_Name": "Mahmudul  Hasan",
+   "Student_Cgpa": 2.78,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 17181105006,
+   "Student_Name": "Farhana Alam Joya",
+   "Student_Cgpa": 3.38,
+   "Student_Sgpa": 3.56
+ },
+ {
+   "Student_ID": 17181105007,
+   "Student_Name": "Md. Arafat Ali Shovon",
+   "Student_Cgpa": 1.03,
+   "Student_Sgpa": 1
+ },
+ {
+   "Student_ID": 17181105008,
+   "Student_Name": "Md. Zakaria Hossain",
+   "Student_Cgpa": 3.5,
+   "Student_Sgpa": 3.75
+ },
+ {
+   "Student_ID": 17181105009,
+   "Student_Name": "Mehedi Hasan Shawon",
+   "Student_Cgpa": 1.38,
+   "Student_Sgpa": 1.69
+ },
+ {
+   "Student_ID": 17181105010,
+   "Student_Name": "Shoyeb  Ahmed",
+   "Student_Cgpa": 1.44,
+   "Student_Sgpa": 1.69
+ },
+ {
+   "Student_ID": 17181105011,
+   "Student_Name": "Dipa Chowdhury Tara",
+   "Student_Cgpa": 0.34,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181105012,
+   "Student_Name": "Amana  Akter",
+   "Student_Cgpa": 1.54,
+   "Student_Sgpa": 1.5
+ },
+ {
+   "Student_ID": 17181105013,
+   "Student_Name": "Md.  Rasel",
+   "Student_Cgpa": 0.75,
+   "Student_Sgpa": 1.5
+ },
+ {
+   "Student_ID": 17181105015,
+   "Student_Name": "Samsun  Nacher",
+   "Student_Cgpa": 3.13,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17181105017,
+   "Student_Name": "D M Shifatullah",
+   "Student_Cgpa": 2.88,
+   "Student_Sgpa": 3.06
+ },
+ {
+   "Student_ID": 17181105018,
+   "Student_Name": "Enamul Haque Sabbir",
+   "Student_Cgpa": 2.31,
+   "Student_Sgpa": 2.44
+ },
+ {
+   "Student_ID": 17181105019,
+   "Student_Name": "Md. Saifullah Mansur",
+   "Student_Cgpa": 3.66,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17181105020,
+   "Student_Name": "Md. Rajib Mia",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 2.56
+ },
+ {
+   "Student_ID": 17181105021,
+   "Student_Name": "Mohammad  Mohiuddin",
+   "Student_Cgpa": 2.41,
+   "Student_Sgpa": 2.13
+ },
+ {
+   "Student_ID": 17181105022,
+   "Student_Name": "Tanvir Ahmed Anik",
+   "Student_Cgpa": 1.44,
+   "Student_Sgpa": 1.69
+ },
+ {
+   "Student_ID": 17181105023,
+   "Student_Name": "Rasheduzzaman",
+   "Student_Cgpa": 1.81,
+   "Student_Sgpa": 1.94
+ },
+ {
+   "Student_ID": 17181105024,
+   "Student_Name": "Rezaul  Islam",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 3.06
+ },
+ {
+   "Student_ID": 17181105027,
+   "Student_Name": "Md. Borhan Kabir",
+   "Student_Cgpa": 3.06,
+   "Student_Sgpa": 3.31
+ },
+ {
+   "Student_ID": 17181105028,
+   "Student_Name": "Rasel  Howlader",
+   "Student_Cgpa": 2.09,
+   "Student_Sgpa": 1.94
+ },
+ {
+   "Student_ID": 17181105029,
+   "Student_Name": "Sourav Sarker Pritom",
+   "Student_Cgpa": 1.09,
+   "Student_Sgpa": 1.06
+ },
+ {
+   "Student_ID": 17181105031,
+   "Student_Name": "Khadija  Sultana",
+   "Student_Cgpa": 0.42,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181105032,
+   "Student_Name": "Feroz  Shah",
+   "Student_Cgpa": 1.59,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17181105033,
+   "Student_Name": "Mir Zulfikar Aziz",
+   "Student_Cgpa": 1.38,
+   "Student_Sgpa": 1.69
+ },
+ {
+   "Student_ID": 17181105035,
+   "Student_Name": "Nusrat  Jahan",
+   "Student_Cgpa": 2.19,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 17181105036,
+   "Student_Name": "Md. Mahmudul Haque",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 3.25
+ },
+ {
+   "Student_ID": 17181105037,
+   "Student_Name": "Kawoser  Hossain",
+   "Student_Cgpa": 2.78,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 17181105040,
+   "Student_Name": "Salah Al Banna",
+   "Student_Cgpa": 1.97,
+   "Student_Sgpa": 2.69
+ },
+ {
+   "Student_ID": 17181105041,
+   "Student_Name": "Hridoy  Khan",
+   "Student_Cgpa": 1.78,
+   "Student_Sgpa": 1.88
+ },
+ {
+   "Student_ID": 17181105042,
+   "Student_Name": "Md. ABU SALAY",
+   "Student_Cgpa": 1.56,
+   "Student_Sgpa": 1.75
+ }
+]

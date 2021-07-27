@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.newage.studlab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name=".Application.StudLab"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".Calculators.SemFeesCalculator"
+            android:theme="@style/AppThemeIntro">
+        </activity>
+        <activity
+            android:name=".Authentication.Verification.LogInActivity"
+            android:theme="@style/AppThemeIntro">
+        </activity>
+        <activity
+            android:name=".Authentication.Verification.SignUpActivity"
+            android:theme="@style/AppThemeIntro">
+        </activity>
+        <activity
+            android:name=".Authentication.Introduction"
+            android:theme="@style/AppThemeIntro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home.BloodFragment.BloodActivity"
+            android:theme="@style/AppThemeBlood" />
+        <activity
+            android:name=".StudLab.StudLabActivity"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".Home.NotificationActivity"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".Home.AboutActivity"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".Home.HomeMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHome" />
+        <activity
+            android:name=".Calculators.SgpaCalculator"
+            android:theme="@style/AppThemeCalculator" />
+        <activity
+            android:name=".Calculators.CgpaCalculator"
+            android:theme="@style/AppThemeCalculator" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity
+            android:name=".StudLab.Tools.ToolsBook"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".StudLab.Tools.ToolsSlide"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".StudLab.Tools.ToolsSheet"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".StudLab.Tools.ToolsLecture"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".StudLab.Tools.ToolsSuggestion"
+            android:theme="@style/AppThemeIntro" />
+        <activity
+            android:name=".StudLab.Tools.ToolsCourse"
+            android:theme="@style/AppThemeIntro" />
+
+
+        <service
+            android:name=".Services.FcmNotificationService.MyFireBaseMessagingService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".Services.FcmNotificationService.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+
+        <service
+            android:name=".Services.SrNotificationService.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".Services.SrNotificationService.NotificationEventReceiver" />
+        <receiver android:name=".Services.SrNotificationService.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".Services.SampleBootReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+
+        <!--A BroadcastReceiver
+        That start automatically when the device boot up and
+        repeat the task associate with this broadcast receiver.-->
+        <receiver
+            android:name=".Services.AlarmBroadcastReceiver"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+
+
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/app_icon" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,146 @@
+[
+ {
+   "Student_ID": 19201108001,
+   "Student_Name": "Joynob  Islam",
+   "Student_Cgpa": 2.35,
+   "Student_Sgpa": 2.35
+ },
+ {
+   "Student_ID": 19201108002,
+   "Student_Name": "Utsa Chandra Das",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201108003,
+   "Student_Name": "Md. Nuruzzaman Sarker\nTuhin",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201108004,
+   "Student_Name": "Md. Abul Bashar Bipul",
+   "Student_Cgpa": 1.78,
+   "Student_Sgpa": 1.78
+ },
+ {
+   "Student_ID": 19201108005,
+   "Student_Name": "Hasibul Islam Nabil",
+   "Student_Cgpa": 3.7,
+   "Student_Sgpa": 3.7
+ },
+ {
+   "Student_ID": 19201108006,
+   "Student_Name": "Md. Nahid Parves",
+   "Student_Cgpa": 2.6,
+   "Student_Sgpa": 2.6
+ },
+ {
+   "Student_ID": 19201108007,
+   "Student_Name": "Jasim  Uddin",
+   "Student_Cgpa": 3.43,
+   "Student_Sgpa": 3.43
+ },
+ {
+   "Student_ID": 19201108008,
+   "Student_Name": "Md. Shahariar Hasan",
+   "Student_Cgpa": 2.65,
+   "Student_Sgpa": 2.65
+ },
+ {
+   "Student_ID": 19201108009,
+   "Student_Name": "Shahriar Mahmud Saykat",
+   "Student_Cgpa": 2.08,
+   "Student_Sgpa": 2.08
+ },
+ {
+   "Student_ID": 19201108010,
+   "Student_Name": "Md Easin Arafat Badhon",
+   "Student_Cgpa": 2,
+   "Student_Sgpa": 2
+ },
+ {
+   "Student_ID": 19201108011,
+   "Student_Name": "Md. Raju Sheikh",
+   "Student_Cgpa": 3.7,
+   "Student_Sgpa": 3.7
+ },
+ {
+   "Student_ID": 19201108012,
+   "Student_Name": "Md. Ibrahim Shikder\nMahin",
+   "Student_Cgpa": 3.13,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 19201108013,
+   "Student_Name": "S. M. Mehedi Hassan",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201108014,
+   "Student_Name": "Md Rakib  Hasan",
+   "Student_Cgpa": 1.2,
+   "Student_Sgpa": 1.2
+ },
+ {
+   "Student_ID": 19201108015,
+   "Student_Name": "Prarthona Talukder Mishu",
+   "Student_Cgpa": 3.15,
+   "Student_Sgpa": 3.15
+ },
+ {
+   "Student_ID": 19201108016,
+   "Student_Name": "Mehedi Hassan Rifat",
+   "Student_Cgpa": 1.91,
+   "Student_Sgpa": 1.91
+ },
+ {
+   "Student_ID": 19201108017,
+   "Student_Name": "Md.Niaj Ahmmed Nirob",
+   "Student_Cgpa": 3.2,
+   "Student_Sgpa": 3.2
+ },
+ {
+   "Student_ID": 19201108018,
+   "Student_Name": "Md. Rohmot Ali",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201108019,
+   "Student_Name": "Sheikh Noman Hossain",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201108020,
+   "Student_Name": "Md.  Ala-min",
+   "Student_Cgpa": 1.33,
+   "Student_Sgpa": 1.33
+ },
+ {
+   "Student_ID": 19201108021,
+   "Student_Name": "Md. Tarek Hossain",
+   "Student_Cgpa": 2.5,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 19201108022,
+   "Student_Name": "Md. Golam Faruk Siddique\nFani",
+   "Student_Cgpa": 2.55,
+   "Student_Sgpa": 2.55
+ },
+ {
+   "Student_ID": 19201108023,
+   "Student_Name": "Md Yasir Arafat",
+   "Student_Cgpa": 3.48,
+   "Student_Sgpa": 3.48
+ },
+ {
+   "Student_ID": 19201108024,
+   "Student_Name": "Syed Udye Hasan",
+   "Student_Cgpa": 2.43,
+   "Student_Sgpa": 2.43
+ }
+]

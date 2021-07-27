@@ -1,0 +1,62 @@
+[
+ {
+   "Student_ID": 17183108001,
+   "Student_Name": "Ahmed Zubair Jamil",
+   "Student_Cgpa": 3.28,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17183108002,
+   "Student_Name": "Tanzim Nur Ornab",
+   "Student_Cgpa": 2.43,
+   "Student_Sgpa": 1.53
+ },
+ {
+   "Student_ID": 17183108005,
+   "Student_Name": "Amit Kumar Das",
+   "Student_Cgpa": 2.57,
+   "Student_Sgpa": 2.78
+ },
+ {
+   "Student_ID": 17183108006,
+   "Student_Name": "Rubaiyat  Alam",
+   "Student_Cgpa": 3.22,
+   "Student_Sgpa": 3.69
+ },
+ {
+   "Student_ID": 17183108007,
+   "Student_Name": "Enayet  Hossain",
+   "Student_Cgpa": 2.15,
+   "Student_Sgpa": 2.09
+ },
+ {
+   "Student_ID": 17183108009,
+   "Student_Name": "Abdullah Al Mukit",
+   "Student_Cgpa": 3.07,
+   "Student_Sgpa": 3.41
+ },
+ {
+   "Student_ID": 17183108010,
+   "Student_Name": "Mohd. Shafayet Ullah\nAhad",
+   "Student_Cgpa": 2.91,
+   "Student_Sgpa": 2.75
+ },
+ {
+   "Student_ID": 17183108013,
+   "Student_Name": "Md. Nazmol Huda Shoaib",
+   "Student_Cgpa": 1.97,
+   "Student_Sgpa": 1.21
+ },
+ {
+   "Student_ID": 17183108015,
+   "Student_Name": "Md. Mashruqe Hossain\nFahim",
+   "Student_Cgpa": 3.71,
+   "Student_Sgpa": 3.78
+ },
+ {
+   "Student_ID": 17183108016,
+   "Student_Name": "Imran Ahamad Khan",
+   "Student_Cgpa": 3.47,
+   "Student_Sgpa": 3.78
+ }
+]

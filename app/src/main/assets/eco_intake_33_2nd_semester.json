@@ -1,0 +1,62 @@
+[
+ {
+   "Student_ID": 18193106001,
+   "Student_Name": "Md.  Atiquzzaman",
+   "Student_Cgpa": 3.03,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 18193106002,
+   "Student_Name": "Sabrin  Rahman",
+   "Student_Cgpa": 2.63,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 18193106003,
+   "Student_Name": "Farjana Akter Sweety",
+   "Student_Cgpa": 2.69,
+   "Student_Sgpa": 2.56
+ },
+ {
+   "Student_ID": 18193106006,
+   "Student_Name": "Md. Shahriar  Hye",
+   "Student_Cgpa": 2.85,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 18193106007,
+   "Student_Name": "Md. Fahim Faisal",
+   "Student_Cgpa": 3.34,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 18193106008,
+   "Student_Name": "Marjia Akter Toma",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18193106009,
+   "Student_Name": "Shaharia  Ansary",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 2.67
+ },
+ {
+   "Student_ID": 18193106010,
+   "Student_Name": "Md. Aminul Islam Eiaseen",
+   "Student_Cgpa": 3.16,
+   "Student_Sgpa": 2.75
+ },
+ {
+   "Student_ID": 18193106011,
+   "Student_Name": "Juena Akter Jarin",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 18193106012,
+   "Student_Name": "Hossain",
+   "Student_Cgpa": 2.63,
+   "Student_Sgpa": 2.38
+ }
+]

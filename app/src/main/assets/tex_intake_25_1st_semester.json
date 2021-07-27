@@ -1,0 +1,104 @@
+[
+ {
+   "Student_ID": 18191107001,
+   "Student_Name": "Tripika  Chakma",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18191107002,
+   "Student_Name": "Md. Mehedi Hasan Noyon",
+   "Student_Cgpa": 2.9,
+   "Student_Sgpa": 2.9
+ },
+ {
+   "Student_ID": 18191107003,
+   "Student_Name": "Md Sojib Islam",
+   "Student_Cgpa": 3.31,
+   "Student_Sgpa": 3.31
+ },
+ {
+   "Student_ID": 18191107004,
+   "Student_Name": "Ashraful  Alam",
+   "Student_Cgpa": 3.35,
+   "Student_Sgpa": 3.35
+ },
+ {
+   "Student_ID": 18191107005,
+   "Student_Name": "Saiful  Islam",
+   "Student_Cgpa": 3.12,
+   "Student_Sgpa": 3.12
+ },
+ {
+   "Student_ID": 18191107006,
+   "Student_Name": "Md. Maruf Hosen",
+   "Student_Cgpa": 3.65,
+   "Student_Sgpa": 3.65
+ },
+ {
+   "Student_ID": 18191107007,
+   "Student_Name": "Mahmudul  Hasan",
+   "Student_Cgpa": 2,
+   "Student_Sgpa": 2
+ },
+ {
+   "Student_ID": 18191107008,
+   "Student_Name": "Titu Chandra Sutradar",
+   "Student_Cgpa": 3.27,
+   "Student_Sgpa": 3.27
+ },
+ {
+   "Student_ID": 18191107009,
+   "Student_Name": "Arafat  Zia",
+   "Student_Cgpa": 3.4,
+   "Student_Sgpa": 3.4
+ },
+ {
+   "Student_ID": 18191107010,
+   "Student_Name": "Md. Tahidul Islam",
+   "Student_Cgpa": 2.7,
+   "Student_Sgpa": 2.7
+ },
+ {
+   "Student_ID": 18191107011,
+   "Student_Name": "Md. Musfiqur Rahman",
+   "Student_Cgpa": 1.96,
+   "Student_Sgpa": 1.96
+ },
+ {
+   "Student_ID": 18191107012,
+   "Student_Name": "Nur Mohammad Akash",
+   "Student_Cgpa": 2.6,
+   "Student_Sgpa": 2.6
+ },
+ {
+   "Student_ID": 18191107013,
+   "Student_Name": "Jahirul Islam Shamim",
+   "Student_Cgpa": 2.97,
+   "Student_Sgpa": 2.97
+ },
+ {
+   "Student_ID": 18191107014,
+   "Student_Name": "Mehenaz  Arefin",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 18191107015,
+   "Student_Name": "Md. Rasel Rana",
+   "Student_Cgpa": 3.14,
+   "Student_Sgpa": 3.14
+ },
+ {
+   "Student_ID": 18191107016,
+   "Student_Name": "Md. Arafat Ahamed\nBhuiyan",
+   "Student_Cgpa": 3.56,
+   "Student_Sgpa": 3.56
+ },
+ {
+   "Student_ID": 18191107018,
+   "Student_Name": "Tajkia  Akter",
+   "Student_Cgpa": 3.15,
+   "Student_Sgpa": 3.15
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+   "Student_ID": 18193107002,
+   "Student_Name": "Md. Tara Miah",
+   "Student_Cgpa": 2.03,
+   "Student_Sgpa": 2.53
+ },
+ {
+   "Student_ID": 18193107004,
+   "Student_Name": "Md. Nurul Kadir",
+   "Student_Cgpa": 3.17,
+   "Student_Sgpa": 3.1
+ },
+ {
+   "Student_ID": 18193107006,
+   "Student_Name": "Sumaia  Akter",
+   "Student_Cgpa": 3.45,
+   "Student_Sgpa": 2.97
+ },
+ {
+   "Student_ID": 18193107007,
+   "Student_Name": "Ashikur Rahman Ashif",
+   "Student_Cgpa": 3.57,
+   "Student_Sgpa": 3.25
+ },
+ {
+   "Student_ID": 18193107008,
+   "Student_Name": "Md Najij Afroje",
+   "Student_Cgpa": 3.15,
+   "Student_Sgpa": 2.41
+ },
+ {
+   "Student_ID": 18193107011,
+   "Student_Name": "Md. Hriday Hossen",
+   "Student_Cgpa": 2.3,
+   "Student_Sgpa": 1.95
+ },
+ {
+   "Student_ID": 18193107013,
+   "Student_Name": "Md. Razzaqul Islam",
+   "Student_Cgpa": 3.15,
+   "Student_Sgpa": 3.04
+ }
+]

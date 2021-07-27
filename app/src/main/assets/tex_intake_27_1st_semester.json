@@ -1,0 +1,80 @@
+[
+ {
+   "Student_ID": 18193107001,
+   "Student_Name": "Shipon  Nath",
+   "Student_Cgpa": 2,
+   "Student_Sgpa": 2
+ },
+ {
+   "Student_ID": 18193107002,
+   "Student_Name": "Md. Tara Miah",
+   "Student_Cgpa": 1.92,
+   "Student_Sgpa": 1.92
+ },
+ {
+   "Student_ID": 18193107003,
+   "Student_Name": "Md. Mahadi Hasan",
+   "Student_Cgpa": 2.92,
+   "Student_Sgpa": 2.92
+ },
+ {
+   "Student_ID": 18193107004,
+   "Student_Name": "Md. Nurul Kadir",
+   "Student_Cgpa": 3.22,
+   "Student_Sgpa": 3.22
+ },
+ {
+   "Student_ID": 18193107005,
+   "Student_Name": "Khandaker Aktarul Alam",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18193107006,
+   "Student_Name": "Sumaia  Akter",
+   "Student_Cgpa": 3.89,
+   "Student_Sgpa": 3.89
+ },
+ {
+   "Student_ID": 18193107007,
+   "Student_Name": "Ashikur Rahman Ashif",
+   "Student_Cgpa": 3.83,
+   "Student_Sgpa": 3.83
+ },
+ {
+   "Student_ID": 18193107008,
+   "Student_Name": "Md Najij Afroje",
+   "Student_Cgpa": 3.05,
+   "Student_Sgpa": 3.05
+ },
+ {
+   "Student_ID": 18193107009,
+   "Student_Name": "Md. Asif Hossain",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18193107010,
+   "Student_Name": "Sakibul  Hasan",
+   "Student_Cgpa": 0.86,
+   "Student_Sgpa": 0.86
+ },
+ {
+   "Student_ID": 18193107011,
+   "Student_Name": "Md. Hriday Hossen",
+   "Student_Cgpa": 2.3,
+   "Student_Sgpa": 2.3
+ },
+ {
+   "Student_ID": 18193107012,
+   "Student_Name": "Md.\nHabibullah-Al-Noman",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18193107013,
+   "Student_Name": "Md. Razzaqul Islam",
+   "Student_Cgpa": 2.83,
+   "Student_Sgpa": 2.83
+ }
+]

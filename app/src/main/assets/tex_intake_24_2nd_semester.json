@@ -1,0 +1,32 @@
+[
+ {
+   "Student_ID": 17183107002,
+   "Student_Name": "Asikur  Rahman",
+   "Student_Cgpa": 2.99,
+   "Student_Sgpa": 2.52
+ },
+ {
+   "Student_ID": 17183107003,
+   "Student_Name": "Asifur  Rahman",
+   "Student_Cgpa": 2.49,
+   "Student_Sgpa": 2.86
+ },
+ {
+   "Student_ID": 17183107004,
+   "Student_Name": "Md. Sanaullah Rabin",
+   "Student_Cgpa": 3.95,
+   "Student_Sgpa": 4
+ },
+ {
+   "Student_ID": 17183107006,
+   "Student_Name": "Siful  Islam",
+   "Student_Cgpa": 3.03,
+   "Student_Sgpa": 3.11
+ },
+ {
+   "Student_ID": 17183107008,
+   "Student_Name": "Rahat  Hossen",
+   "Student_Cgpa": 3.86,
+   "Student_Sgpa": 4
+ }
+]

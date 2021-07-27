@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDeepBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorDeepBlue</item>
+    </style>
+
+    <style name="AppThemeWelcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#022741</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+    <style name="AppThemeLogIn" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#3A4DAB</item>
+        <item name="colorAccent">#4A55B0</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+    <style name="AppThemeHome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#00454AB8</item>
+        <item name="colorAccent">#022741</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+    <style name="AppThemeStudLab" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#C52962FF</item>
+        <item name="colorAccent">#022741</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+    <style name="AppThemeStudLabTools" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#022741</item>
+        <item name="colorPrimaryDark">#D9D9D9</item>
+        <item name="colorAccent">#022741</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+    <style name="AppThemeCalculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#022741</item>
+        <item name="colorPrimaryDark">#022741</item>
+        <item name="colorAccent">#022741</item>
+        <item name="android:navigationBarColor">#022741</item>
+    </style>
+
+
+    <style name="AppThemeBlood" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF3B3B</item>
+        <item name="colorPrimaryDark">#FF4B4B</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+
+    <style name="AppThemeIntro" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2962FF</item>
+        <item name="colorPrimaryDark">#00454AB8</item>
+        <item name="colorAccent">#2962FF</item>
+        <item name="android:navigationBarColor">#F2F2F2</item>
+    </style>
+
+    <style name="Spinner"
+        parent="Widget.AppCompat.Light.DropDownItem.Spinner" />
+
+    <style name="annex_dialog_background_style" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.CustomDialog.Rounded
+        </item>
+        <item name="colorSurface">#FFF</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CustomDialog.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom</item>
+    </style>
+
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

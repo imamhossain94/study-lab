@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fafafa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/upload_prog_lecture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_semi_bold"
+                    android:text="Upload CSE Lecture"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorBlue2"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/lecture_tools_info_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/info_icon_blue_svg" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dashed_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Preview"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/colorBlue2"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="File fomate pdf, doc or zip is allowed."
+                            android:textAlignment="textStart"
+                            android:textColor="@color/colorBlue2" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginBottom="0dp"
+                                    android:orientation="horizontal"
+                                    app:cardBackgroundColor="#353535">
+
+                                    <ImageView
+                                        android:id="@+id/lecture_file_icon"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginStart="15dp"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:layout_marginBottom="15dp"
+                                        android:scaleType="fitCenter" />
+                                </androidx.cardview.widget.CardView>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/lecture_course_code"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:text="Course code (chapter,lecture)"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#414141"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/lecture_by_date_title"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="topic or title by teachers name on [date]"
+                                        android:textAlignment="viewStart"
+                                        android:textColor="#666666"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:id="@+id/lecture_upload_by_date"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="3dp"
+                                        android:gravity="center"
+                                        android:text="Upload By 17181103084  [10-04-2020]"
+                                        android:textAlignment="viewStart"
+                                        android:textColor="#666666"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/lecture_file_Size"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:layout_marginBottom="0dp"
+                                        android:text="0.00 MB"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="12sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/lecture_download_time"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_weight="1"
+                                            android:gravity="right|center_vertical|center_horizontal|center|end"
+                                            android:paddingStart="5dp"
+                                            android:text="0"
+                                            android:textSize="12sp" />
+
+                                        <ImageView
+                                            android:layout_width="15dp"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginEnd="5dp"
+                                            android:src="@drawable/down_arrow_icon_svg" />
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/lecture_download_icon"
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                                        android:layout_marginEnd="5dp"
+                                        android:layout_marginBottom="5dp"
+                                        android:background="@drawable/squar_round_white_spinner"
+                                        android:padding="5dp"
+                                        android:src="@drawable/download_icon_svg" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <Spinner
+                            android:id="@+id/semester_spinner"
+                            style="@style/Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="2dp" />
+
+                        <Spinner
+                            android:id="@+id/course_spinner"
+                            style="@style/Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="2dp"
+                            app:layout_constraintHorizontal_bias="1" />
+
+                        <Spinner
+                            android:id="@+id/chapter_no"
+                            style="@style/Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="2dp"
+                            app:layout_constraintHorizontal_bias="1" />
+
+                        <Spinner
+                            android:id="@+id/lecture_no"
+                            style="@style/Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="2dp"
+                            app:layout_constraintHorizontal_bias="1" />
+
+                        <EditText
+                            android:id="@+id/lecture_title_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/square_round_white_blue_strok"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:gravity="left|center_vertical|center_horizontal|center"
+                            android:hint="Lecture title or topic"
+                            android:paddingStart="15dp"
+                            android:textColor="@color/colorBlue2"
+                            android:textColorHint="@color/colorBlue2"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/lecture_by_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/square_round_white_blue_strok"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:gravity="left|center_vertical|center_horizontal|center"
+                            android:hint="Lecture by [teachers name]"
+                            android:paddingStart="15dp"
+                            android:textColor="@color/colorBlue2"
+                            android:textColorHint="@color/colorBlue2"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/lecture_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/square_round_white_blue_strok"
+                            android:ems="10"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:gravity="left|center_vertical|center_horizontal|center|start"
+                            android:hint="Lecture date"
+                            android:inputType="date"
+                            android:paddingStart="15dp"
+                            android:textColor="@color/colorBlue2"
+                            android:textColorHint="@color/colorBlue2"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/browse_lecture_img"
+                                android:layout_width="120dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:background="@drawable/square_round_white_blue_strok"
+                                android:clickable="true"
+                                android:padding="5dp"
+                                android:src="@drawable/folder_icon_blue_svg" />
+
+                            <EditText
+                                android:id="@+id/url_lecture_link_input"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/square_round_white_blue_strok"
+                                android:ems="10"
+                                android:hint="OR, [URL] https://www.newagebubt.com"
+                                android:inputType="textPersonName"
+                                android:paddingStart="12dp"
+                                android:textColor="@color/colorBlue2"
+                                android:textColorHint="@color/colorBlue2"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/add_lecture_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/intro_button_blue"
+                android:text="UPLOAD"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

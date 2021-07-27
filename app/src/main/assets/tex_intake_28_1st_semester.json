@@ -1,0 +1,110 @@
+[
+ {
+   "Student_ID": 19201107001,
+   "Student_Name": "Sayma  Akter",
+   "Student_Cgpa": 3.65,
+   "Student_Sgpa": 3.65
+ },
+ {
+   "Student_ID": 19201107002,
+   "Student_Name": "Naziur Rahman Anik",
+   "Student_Cgpa": 3.5,
+   "Student_Sgpa": 3.5
+ },
+ {
+   "Student_ID": 19201107003,
+   "Student_Name": "Nilmadhab  Das",
+   "Student_Cgpa": 3.59,
+   "Student_Sgpa": 3.59
+ },
+ {
+   "Student_ID": 19201107004,
+   "Student_Name": "Abdulla All Sakin",
+   "Student_Cgpa": 3.5,
+   "Student_Sgpa": 3.5
+ },
+ {
+   "Student_ID": 19201107005,
+   "Student_Name": "Md Golam Mostafizur\nRahat",
+   "Student_Cgpa": 3.02,
+   "Student_Sgpa": 3.02
+ },
+ {
+   "Student_ID": 19201107006,
+   "Student_Name": "Anower -Us- Sadat",
+   "Student_Cgpa": 0.34,
+   "Student_Sgpa": 0.34
+ },
+ {
+   "Student_ID": 19201107007,
+   "Student_Name": "Md. Ariful Islam Khan",
+   "Student_Cgpa": 1.08,
+   "Student_Sgpa": 1.08
+ },
+ {
+   "Student_ID": 19201107008,
+   "Student_Name": "Suchen  Dewan",
+   "Student_Cgpa": 2.25,
+   "Student_Sgpa": 2.25
+ },
+ {
+   "Student_ID": 19201107009,
+   "Student_Name": "Md. Tamim Hossain Moin",
+   "Student_Cgpa": 2.23,
+   "Student_Sgpa": 2.23
+ },
+ {
+   "Student_ID": 19201107010,
+   "Student_Name": "Tankir Mahmud Tusher",
+   "Student_Cgpa": 2.35,
+   "Student_Sgpa": 2.35
+ },
+ {
+   "Student_ID": 19201107011,
+   "Student_Name": "Mahamud Hasan Mehedi\nGolder",
+   "Student_Cgpa": 2.9,
+   "Student_Sgpa": 2.9
+ },
+ {
+   "Student_ID": 19201107012,
+   "Student_Name": "Mishal  Ahmed",
+   "Student_Cgpa": 1.31,
+   "Student_Sgpa": 1.31
+ },
+ {
+   "Student_ID": 19201107013,
+   "Student_Name": "Md. Abdullah Al Mamun",
+   "Student_Cgpa": 2.58,
+   "Student_Sgpa": 2.58
+ },
+ {
+   "Student_ID": 19201107014,
+   "Student_Name": "Istiak Tian Lingkon",
+   "Student_Cgpa": 1,
+   "Student_Sgpa": 1
+ },
+ {
+   "Student_ID": 19201107015,
+   "Student_Name": "Md. Mijanur Rahman Anik",
+   "Student_Cgpa": 1.31,
+   "Student_Sgpa": 1.31
+ },
+ {
+   "Student_ID": 19201107016,
+   "Student_Name": "Md. Rahimul Islam\nNayeem",
+   "Student_Cgpa": 0.31,
+   "Student_Sgpa": 0.31
+ },
+ {
+   "Student_ID": 19201107017,
+   "Student_Name": "Samia  Akter",
+   "Student_Cgpa": 3.76,
+   "Student_Sgpa": 3.76
+ },
+ {
+   "Student_ID": 19201107018,
+   "Student_Name": "Md. Nurul Alamin",
+   "Student_Cgpa": 2.87,
+   "Student_Sgpa": 2.87
+ }
+]

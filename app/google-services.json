@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "607160895276",
+    "firebase_url": "https://studlab.firebaseio.com",
+    "project_id": "studlab",
+    "storage_bucket": "studlab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607160895276:android:ac96e0ac47fe0b8715ce89",
+        "android_client_info": {
+          "package_name": "com.newage.studlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607160895276-n7ihk4ahievt5r9stkvo0i1q91ia85ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newage.studlab",
+            "certificate_hash": "a8284c00eb67bae1e118fcfcbd23b1fb2e59a51d"
+          }
+        },
+        {
+          "client_id": "607160895276-736c9bg9e1kusmpu056dadhsmmab81kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7udR8yooZHdX19SaxXSPBIMElRZknDHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607160895276-736c9bg9e1kusmpu056dadhsmmab81kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

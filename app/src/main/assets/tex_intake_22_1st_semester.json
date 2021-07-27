@@ -1,0 +1,98 @@
+[
+ {
+   "Student_ID": 17181107001,
+   "Student_Name": "Md. Rakibul Islam",
+   "Student_Cgpa": "A\n0.00",
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107002,
+   "Student_Name": "Md. Sarower Hossain",
+   "Student_Cgpa": "3.68",
+   "Student_Sgpa": 3.68
+ },
+ {
+   "Student_ID": 17181107003,
+   "Student_Name": "Muhammad Emran\nHossain",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107004,
+   "Student_Name": "Hasan Sanzid Sifat",
+   "Student_Cgpa": "1.84",
+   "Student_Sgpa": 1.84
+ },
+ {
+   "Student_ID": 17181107005,
+   "Student_Name": "Md. Faizar Haque",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107006,
+   "Student_Name": "Md. Sultan Islam",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107007,
+   "Student_Name": "Rayhanul  Islam",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107008,
+   "Student_Name": "Md. Shakhaut Hossain",
+   "Student_Cgpa": "3",
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17181107009,
+   "Student_Name": "Md. Aliur Rahman Dipu",
+   "Student_Cgpa": "2.34",
+   "Student_Sgpa": 2.34
+ },
+ {
+   "Student_ID": 17181107010,
+   "Student_Name": "Md. Fazle Rabbi",
+   "Student_Cgpa": "3.78",
+   "Student_Sgpa": 3.78
+ },
+ {
+   "Student_ID": 17181107011,
+   "Student_Name": "Nazmul  Hosen",
+   "Student_Cgpa": "3.11",
+   "Student_Sgpa": 3.11
+ },
+ {
+   "Student_ID": 17181107012,
+   "Student_Name": "Md. Liakat Ali Khan",
+   "Student_Cgpa": "3.44",
+   "Student_Sgpa": 3.44
+ },
+ {
+   "Student_ID": 17181107013,
+   "Student_Name": "Md. Mehedi Hasan",
+   "Student_Cgpa": "2.98",
+   "Student_Sgpa": 2.98
+ },
+ {
+   "Student_ID": 17181107014,
+   "Student_Name": "Ruhul  Amin",
+   "Student_Cgpa": "0",
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107015,
+   "Student_Name": "Syed Isfaq Pronoy",
+   "Student_Cgpa": "2.62",
+   "Student_Sgpa": 2.62
+ },
+ {
+   "Student_ID": 17181107016,
+   "Student_Name": "Md. Hriyadul Islam\nShohag",
+   "Student_Cgpa": "2.4",
+   "Student_Sgpa": 2.4
+ }
+]

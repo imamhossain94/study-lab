@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="navdrawer_width">300dp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp14">14dp</dimen>
+    <dimen name="sp14">14sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="rippleRadius">75dp</dimen>
+    <dimen name="rippleStrokeWidth">15dp</dimen>
+
+
+</resources>

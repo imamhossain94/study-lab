@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name" translatable="false">StudLab</string>
+    <string name="select_one">Select Item</string>
+
+    <string-array name="shift">
+        <item>Select Shift</item>
+        <item>Day</item>
+        <item>Evening</item>
+    </string-array>
+
+
+    <string-array name="terms">
+        <item>Mid</item>
+        <item>Final</item>
+    </string-array>
+
+    <string-array name="shift_v2">
+        <item>Day</item>
+        <item>Evening</item>
+    </string-array>
+
+    <string-array name="faculty">
+        <item>Faculty of Engineering &amp; Applied Sciences</item>
+        <item>Faculty of Business</item>
+        <item>Faculty of Arts &amp; Humanities</item>
+        <item>Faculty of Social Sciences</item>
+        <item>Faculty of Law</item>
+    </string-array>
+
+    <string-array name="credit">
+        <item>0.75</item>
+        <item>1.50</item>
+        <item>2.00</item>
+        <item>3.00</item>
+        <item>4.00</item>
+    </string-array>
+
+    <string-array name="section">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="edition">
+        <item>1st Edition</item>
+        <item>2nd Edition</item>
+        <item>3rd Edition</item>
+        <item>4th Edition</item>
+        <item>5th Edition</item>
+        <item>6th Edition</item>
+        <item>7th Edition</item>
+        <item>8th Edition</item>
+        <item>9th Edition</item>
+        <item>10th Edition</item>
+        <item>11th Edition</item>
+        <item>12th Edition</item>
+        <item>13th Edition</item>
+        <item>14th Edition</item>
+        <item>15th Edition</item>
+        <item>16th Edition</item>
+        <item>17th Edition</item>
+        <item>18th Edition</item>
+        <item>19th Edition</item>
+        <item>20th Edition</item>
+    </string-array>
+
+    <string-array name="section_profile">
+        <item>Select Section</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="session_year">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+
+    <string-array name="session_year_two">
+        <item>2019–2020</item>
+        <item>2020–2021</item>
+        <item>2021–2022</item>
+        <item>2022–2023</item>
+        <item>2023–2024</item>
+        <item>2024–2025</item>
+        <item>2025–2026</item>
+        <item>2026–2027</item>
+        <item>2027–2028</item>
+        <item>2028–2029</item>
+        <item>2029–2030</item>
+    </string-array>
+
+    <string-array name="semesters">
+        <item>First Semester</item>
+        <item>Second Semester</item>
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Sixth Semester</item>
+        <item>Seventh Semester</item>
+        <item>Eighth Semester</item>
+        <item>Ninth Semester</item>
+        <item>Tenth Semester</item>
+        <item>Eleventh Semester</item>
+        <item>Twelfth Semester</item>
+    </string-array>
+
+    <string-array name="semesters_profile">
+        <item>Select Semester</item>
+        <item>First Semester</item>
+        <item>Second Semester</item>
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Sixth Semester</item>
+        <item>Seventh Semester</item>
+        <item>Eighth Semester</item>
+        <item>Ninth Semester</item>
+        <item>Tenth Semester</item>
+        <item>Eleventh Semester</item>
+        <item>Twelfth Semester</item>
+    </string-array>
+
+    <string-array name="chapter">
+        <item>CH-1</item>
+        <item>CH-2</item>
+        <item>CH-3</item>
+        <item>CH-4</item>
+        <item>CH-5</item>
+        <item>CH-6</item>
+        <item>CH-7</item>
+        <item>CH-8</item>
+        <item>CH-9</item>
+        <item>CH-10</item>
+        <item>CH-11</item>
+        <item>CH-12</item>
+        <item>CH-13</item>
+        <item>CH-14</item>
+        <item>CH-15</item>
+        <item>CH-16</item>
+        <item>CH-17</item>
+        <item>CH-18</item>
+        <item>CH-19</item>
+        <item>CH-20</item>
+        <item>CH-21</item>
+        <item>CH-22</item>
+        <item>CH-23</item>
+        <item>CH-24</item>
+        <item>CH-25</item>
+    </string-array>
+
+    <string-array name="lecture">
+        <item>LEC-1</item>
+        <item>LEC-2</item>
+        <item>LEC-3</item>
+        <item>LEC-4</item>
+        <item>LEC-5</item>
+        <item>LEC-6</item>
+        <item>LEC-7</item>
+        <item>LEC-8</item>
+        <item>LEC-9</item>
+        <item>LEC-10</item>
+        <item>LEC-11</item>
+        <item>LEC-12</item>
+        <item>LEC-13</item>
+        <item>LEC-14</item>
+        <item>LEC-15</item>
+        <item>LEC-16</item>
+        <item>LEC-17</item>
+        <item>LEC-18</item>
+        <item>LEC-19</item>
+        <item>LEC-20</item>
+        <item>LEC-21</item>
+        <item>LEC-22</item>
+        <item>LEC-23</item>
+        <item>LEC-24</item>
+        <item>LEC-25</item>
+        <item>LEC-26</item>
+        <item>LEC-27</item>
+        <item>LEC-28</item>
+        <item>LEC-29</item>
+        <item>LEC-30</item>
+        <item>LEC-31</item>
+        <item>LEC-32</item>
+        <item>LEC-33</item>
+        <item>LEC-34</item>
+        <item>LEC-35</item>
+    </string-array>
+
+    <string-array name="blood">
+        <item>All Group</item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="blood_profile">
+        <item>Select Blood</item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="sort_by_0">
+        <item>Sort by semester</item>
+        <item>Sort by cgpa</item>
+        <item>Sort by sgpa</item>
+        <item>Sort by rank</item>
+    </string-array>
+
+    <string-array name="sort_by_1">
+        <item>Sort by semester</item>
+        <item>Sort by student</item>
+        <item>Sort by pass</item>
+        <item>Sort by fail</item>
+    </string-array>
+
+    <string-array name="sort_by_2">
+        <item>Sort by cgpa</item>
+        <item>Sort by sgpa</item>
+        <item>Sort by id</item>
+        <item>Sort by name</item>
+    </string-array>
+
+    <string-array name="sort_by_3">
+        <item>Sort by program</item>
+        <item>Sort by student</item>
+    </string-array>
+
+    <string-array name="sort_by_3_1">
+        <item>Sort by program</item>
+        <item>Sort by faculty</item>
+    </string-array>
+
+    <string-array name="sort_by_4">
+        <item>Sort by intake</item>
+        <item>Sort by student</item>
+        <item>Sort by semester</item>
+    </string-array>
+
+    <string-array name="sort_by_5">
+        <item>Sort by id</item>
+        <item>Sort by name</item>
+    </string-array>
+
+    <string-array name="sort_by_6">
+        <item>Sort by intake</item>
+        <item>Sort by semester</item>
+        <item>Sort by student</item>
+        <item>Sort by pass</item>
+        <item>Sort by fail</item>
+    </string-array>
+
+    <string-array name="sort_by_7">
+        <item>Sort by designation</item>
+        <item>Sort by name</item>
+        <item>Sort by code</item>
+        <item>Sort by room no</item>
+    </string-array>
+
+    <string-array name="session">
+        <item>Fall</item>
+        <item>Spring</item>
+        <item>Summer</item>
+    </string-array>
+
+    <string-array name="routine_type">
+        <item>Class Routine</item>
+        <item>Exam - Mid</item>
+        <item>Exam - Final</item>
+    </string-array>
+
+
+    <string name="app_description">Android drawer icon with material design animation</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_classes">My classes</string>
+    <string name="diary">Diary</string>
+    <string name="assignment">Assignment</string>
+    <string name="bangladesh_university_of_business_amp_technology"><![CDATA[Bangladesh University of Business & Technology]]></string>
+    <string name="class_routine">Class Routine</string>
+    <string name="exam_routine">Exam Routine</string>
+    <string name="bubt">BUBT</string>
+    <string name="university_result">University Result</string>
+    <string name="intake_result">Intake Result</string>
+    <string name="my_result">My Result</string>
+    <string name="stuff">Stuff</string>
+    <string name="todo">TODO</string>
+    <string name="faculty">Faculty</string>
+    <string name="student">Student</string>
+    <string name="future_course">Future Course</string>
+    <string name="present_course">Present Course</string>
+    <string name="previous_course">Previous Course</string>
+    <string name="smart_routine">Smart Routine</string>
+
+    <string name="app_user">App User</string>
+    <string name="animation_slide_from_bottom">Slide from bottom</string>
+    <string name="all">All</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/spinner_bacground_smoke"
+    android:fontFamily="@font/montserrat_semi_bold"
+    android:singleLine="true"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:textSize="14sp"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:textColor="#3D5AFE" />

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_result_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_view_background"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@color/colorBlue2"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/student_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_semi_bold"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/colorBlue2"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/stud_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_semi_bold"
+                        android:shadowColor="#575757"
+                        android:singleLine="true"
+                        android:text="Md. Imam Hossain"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/stud_id"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:gravity="start"
+                        android:paddingBottom="2dp"
+                        android:shadowColor="#575757"
+                        android:text="17181103084"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/std_dept"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:gravity="start"
+                        android:shadowColor="#575757"
+                        android:text="B.Sc. Engg. in CSE "
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/gpa_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/colorBlue2"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/gpa_board_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:text="CGPA"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gpa_board_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:text="Cumulative Grade Point Average"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/gpa_switch_button"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/squar_round_white_button"
+                        android:contentDescription="TODO"
+                        android:padding="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/rotate_icon_blue_svg_32dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/spinner_bacground_smoke">
+
+                    <com.hadiidbouk.charts.ChartProgressBar
+                        android:id="@+id/sgpa_progress_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|fill"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="invisible"
+                        app:hdBarCanBeClick="true"
+                        app:hdBarCanBeToggle="true"
+                        app:hdBarHeight="75dp"
+                        app:hdBarRadius="10dp"
+                        app:hdBarTitleColor="@color/drawer_arrow_second_color"
+                        app:hdBarTitleMarginTop="5dp"
+                        app:hdBarTitleSelectedColor="@color/colorBlue2"
+                        app:hdBarTitleTxtSize="10sp"
+                        app:hdBarWidth="10dp"
+                        app:hdEmptyColor="@color/colorCard"
+                        app:hdMaxValue="4"
+                        app:hdPinBackgroundColor="@color/pin_background"
+                        app:hdPinDrawable="@drawable/ic_pin"
+                        app:hdPinMarginBottom="45dp"
+                        app:hdPinMarginEnd="28dp"
+                        app:hdPinMarginTop="10dp"
+                        app:hdPinPaddingBottom="5dp"
+                        app:hdPinTextColor="@color/defaultTextColor"
+                        app:hdPinTxtSize="12sp"
+                        app:hdProgressClickColor="@color/colorBlue2"
+                        app:hdProgressColor="@color/color_success"
+                        app:hdProgressDisableColor="@color/progress_disable"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.hadiidbouk.charts.ChartProgressBar
+                        android:id="@+id/cgpa_progress_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|fill"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        app:hdBarCanBeClick="true"
+                        app:hdBarCanBeToggle="true"
+                        app:hdBarHeight="75dp"
+                        app:hdBarRadius="10dp"
+                        app:hdBarTitleColor="@color/drawer_arrow_second_color"
+                        app:hdBarTitleMarginTop="5dp"
+                        app:hdBarTitleSelectedColor="@color/colorBlue2"
+                        app:hdBarTitleTxtSize="10sp"
+                        app:hdBarWidth="10dp"
+                        app:hdEmptyColor="@color/colorCard"
+                        app:hdMaxValue="4"
+                        app:hdPinBackgroundColor="@color/pin_background"
+                        app:hdPinDrawable="@drawable/ic_pin"
+                        app:hdPinMarginBottom="45dp"
+                        app:hdPinMarginEnd="28dp"
+                        app:hdPinMarginTop="10dp"
+                        app:hdPinPaddingBottom="5dp"
+                        app:hdPinTextColor="@color/defaultTextColor"
+                        app:hdPinTxtSize="12sp"
+                        app:hdProgressClickColor="@color/color_success"
+                        app:hdProgressColor="@color/colorBlue2"
+                        app:hdProgressDisableColor="@color/progress_disable"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/selected_gpa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/squar_round_white_button"
+                        android:fontFamily="@font/montserrat_semi_bold"
+                        android:gravity="center|end"
+                        android:hint="3.24"
+                        android:paddingStart="12dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="12dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/colorBlue2"
+                        android:textColorHint="@color/colorBlue2"
+                        android:textSize="12sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/gpa_max_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/squar_round_white_button"
+                        android:fontFamily="@font/open_sans_semi_bold"
+                        android:gravity="center|end"
+                        android:hint="MAX - 3.24 MIN - 2.8"
+                        android:paddingStart="12dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="12dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/colorBlue2"
+                        android:textColorHint="@color/colorBlue2"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/selected_gpa"
+                        app:layout_constraintEnd_toStartOf="@+id/selected_gpa"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/selected_gpa" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

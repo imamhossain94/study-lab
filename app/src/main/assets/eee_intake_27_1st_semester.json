@@ -1,0 +1,62 @@
+[
+ {
+   "Student_ID": 18193108001,
+   "Student_Name": "Mohammad Tarikul Islam\nRimon",
+   "Student_Cgpa": 3.9,
+   "Student_Sgpa": 3.9
+ },
+ {
+   "Student_ID": 18193108002,
+   "Student_Name": "Md. Razu Ahmed",
+   "Student_Cgpa": 3.45,
+   "Student_Sgpa": 3.45
+ },
+ {
+   "Student_ID": 18193108003,
+   "Student_Name": "Md, Golam Faruk Siddique\nFani",
+   "Student_Cgpa": 2.88,
+   "Student_Sgpa": 2.88
+ },
+ {
+   "Student_ID": 18193108004,
+   "Student_Name": "Tahrim  Fatiha",
+   "Student_Cgpa": 3.28,
+   "Student_Sgpa": 3.28
+ },
+ {
+   "Student_ID": 18193108005,
+   "Student_Name": "Kazi Md. Mahabubur\nRahman",
+   "Student_Cgpa": 3.8,
+   "Student_Sgpa": 3.8
+ },
+ {
+   "Student_ID": 18193108006,
+   "Student_Name": "Md. Zunayed Talukder",
+   "Student_Cgpa": 1.83,
+   "Student_Sgpa": 1.83
+ },
+ {
+   "Student_ID": 18193108007,
+   "Student_Name": "Ajmira Noushin Sriti",
+   "Student_Cgpa": 3.9,
+   "Student_Sgpa": 3.9
+ },
+ {
+   "Student_ID": 18193108008,
+   "Student_Name": "Al - Mohaimenul Taj",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18193108009,
+   "Student_Name": "Nayan  Biswas",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18193108010,
+   "Student_Name": "Md. Mahamodul Haque",
+   "Student_Cgpa": 1,
+   "Student_Sgpa": 1
+ }
+]

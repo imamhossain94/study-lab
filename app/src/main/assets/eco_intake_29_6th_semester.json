@@ -1,0 +1,80 @@
+[
+ {
+   "Student_ID": 17182106001,
+   "Student_Name": "Aniruddha  Samadder",
+   "Student_Cgpa": 3.2,
+   "Student_Sgpa": 3.5
+ },
+ {
+   "Student_ID": 17182106002,
+   "Student_Name": "Sadia Afrin Maria",
+   "Student_Cgpa": 3.25,
+   "Student_Sgpa": 3.35
+ },
+ {
+   "Student_ID": 17182106004,
+   "Student_Name": "Jannatul  Ferdus",
+   "Student_Cgpa": 3.31,
+   "Student_Sgpa": 3.69
+ },
+ {
+   "Student_ID": 17182106005,
+   "Student_Name": "Nur  Alam",
+   "Student_Cgpa": 3.77,
+   "Student_Sgpa": 3.94
+ },
+ {
+   "Student_ID": 17182106006,
+   "Student_Name": "Farha  Khan",
+   "Student_Cgpa": 3.91,
+   "Student_Sgpa": 3.88
+ },
+ {
+   "Student_ID": 17182106007,
+   "Student_Name": "Nahid Afrose",
+   "Student_Cgpa": 3.46,
+   "Student_Sgpa": 3.55
+ },
+ {
+   "Student_ID": 17182106011,
+   "Student_Name": "Sayma  Sultana",
+   "Student_Cgpa": 3.8,
+   "Student_Sgpa": 3.75
+ },
+ {
+   "Student_ID": 17182106014,
+   "Student_Name": "Nur Atika Anni",
+   "Student_Cgpa": 3.72,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17182106015,
+   "Student_Name": "Saikat  Mahmud",
+   "Student_Cgpa": 2.37,
+   "Student_Sgpa": 2.63
+ },
+ {
+   "Student_ID": 17182106020,
+   "Student_Name": "Tanima Zaman Adri",
+   "Student_Cgpa": 3.81,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17182106021,
+   "Student_Name": "Md. Ridwanul Karim\nTamim Arafat",
+   "Student_Cgpa": 3.9,
+   "Student_Sgpa": 3.81
+ },
+ {
+   "Student_ID": 17182106022,
+   "Student_Name": "Tania Akter",
+   "Student_Cgpa": 2.9,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17182106023,
+   "Student_Name": "Md. Araful Islam",
+   "Student_Cgpa": 3.58,
+   "Student_Sgpa": 3.44
+ }
+]

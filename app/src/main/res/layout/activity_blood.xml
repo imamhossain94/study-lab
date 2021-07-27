@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FE3131"
+    tools:context=".Home.BloodFragment.BloodActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/squar_round_white_button"
+        android:fontFamily="@font/montserrat_bold"
+        app:layout_constraintBottom_toBottomOf="@+id/back_to_blood_fragment"
+        app:layout_constraintEnd_toStartOf="@+id/total_donor"
+        app:layout_constraintStart_toEndOf="@+id/back_to_blood_fragment"
+        app:layout_constraintTop_toTopOf="@+id/back_to_blood_fragment" />
+
+    <Spinner
+        android:id="@+id/blood_search_spinner"
+        style="@style/Spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_to_blood_fragment"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/back_to_blood_fragment" />
+
+    <TextView
+        android:id="@+id/total_donor"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/squar_round_white_button"
+        android:gravity="center|start"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="5000"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/back_to_blood_fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back_to_blood_fragment" />
+
+    <ImageView
+        android:id="@+id/donor_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="TODO"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/group_of_people"
+        app:layout_constraintBottom_toBottomOf="@+id/total_donor"
+        app:layout_constraintEnd_toEndOf="@+id/total_donor"
+        app:layout_constraintTop_toTopOf="@+id/total_donor" />
+
+    <ImageView
+        android:id="@+id/blood_search_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="TODO"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/blood_drop_red"
+        app:layout_constraintBottom_toBottomOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/blood_donor_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FAFAFA"
+        android:paddingTop="25dp"
+
+        android:layoutAnimation="@anim/layout_animation_from_bottom"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_to_blood_fragment" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <TextView
+        android:id="@+id/fragment_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No donor found"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/bottom_round_red"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_to_blood_fragment" />
+
+    <ImageView
+        android:id="@+id/back_to_blood_fragment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/squar_round_white_button"
+        android:contentDescription="TODO"
+        android:padding="12dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/left_arraow_red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blood_title_container"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:foregroundGravity="center"
+        android:visibility="invisible"
+        app:cardBackgroundColor="#FE3131"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blood_button_container"
+        app:layout_constraintTop_toTopOf="@+id/blood_button_container">
+
+        <ImageView
+            android:id="@+id/blood_request_send_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center|right"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="TODO"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/send_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/textView15"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/blood_request_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center|left"
+            android:text="I need blood"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blood_button_container"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        app:cardBackgroundColor="#FE3131"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/blood_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:contentDescription="TODO"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/blood_drop_white"
+            app:layout_constraintBottom_toBottomOf="@+id/textView15"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toTopOf="@+id/textView15" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blood_form_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"
+        app:cardBackgroundColor="#FE3131"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/blood_button_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/blood_group_container"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/blood_text"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/squar_round_white_button"
+                    android:fontFamily="@font/montserrat_bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Spinner
+                    android:id="@+id/blood_request_group_spinner"
+                    style="@style/Spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/blood_group_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:contentDescription="TODO"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/blood_drop_red"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/blood_text"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/calender_container"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp">
+
+                <EditText
+                    android:id="@+id/blood_need_on_date"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/squar_round_white_button"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:hint="Blood needed date"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textColor="#FE3131"
+                    android:textColorHint="#FF625F"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/calender_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:clickable="true"
+                    android:contentDescription="TODO"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/calender_icon_red"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/blood_need_on_date"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/location_container"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp">
+
+                <EditText
+                    android:id="@+id/blood_request_location"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/squar_round_white_button"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:hint="Hospital name, Location"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textColor="#FE3131"
+                    android:textColorHint="#FF625F"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/baagment7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:contentDescription="TODO"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location_icon_red"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/blood_request_location"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/phoner_container"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/country_code"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/squar_round_white_button"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:text="+88"
+                    android:textColor="#FF0000"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp">
+
+                    <EditText
+                        android:id="@+id/phone_number"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/squar_round_white_button"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:hint="01700000000"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textColor="#FE3131"
+                        android:textColorHint="#FF625F"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/phone_number_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="5dp"
+                        android:contentDescription="TODO"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/phone_icon_red"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

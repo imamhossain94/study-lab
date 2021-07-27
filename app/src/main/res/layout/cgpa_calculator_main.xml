@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#022741"
+    tools:context=".Calculators.SgpaCalculator">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout4"
+                android:layout_width="397dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="7dp"
+                android:background="@drawable/top_round_black">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout5"
+                    android:layout_width="390dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/top_round_white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <View
+                        android:id="@+id/divider20"
+                        android:layout_width="1dp"
+                        android:layout_height="0dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearlout"
+                        app:layout_constraintEnd_toStartOf="@+id/calculator_screen_view"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout10" />
+
+                    <View
+                        android:id="@+id/divider18"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintBottom_toTopOf="@+id/linearLayout10"
+                        app:layout_constraintEnd_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintStart_toStartOf="@+id/calculator_screen_view" />
+
+                    <View
+                        android:id="@+id/divider19"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintBottom_toTopOf="@+id/calculator_screen_view"
+                        app:layout_constraintEnd_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintStart_toStartOf="@+id/calculator_screen_view" />
+
+                    <View
+                        android:id="@+id/divider21"
+                        android:layout_width="1dp"
+                        android:layout_height="0dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearlout"
+                        app:layout_constraintStart_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintTop_toTopOf="@+id/divider18" />
+
+                    <LinearLayout
+                        android:id="@+id/linearlout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintStart_toStartOf="@+id/calculator_screen_view"
+                        app:layout_constraintTop_toBottomOf="@+id/calculator_screen_view">
+
+                        <TextView
+                            android:id="@+id/cgpa_total_course"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="S:0 C: 0"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:id="@+id/divider8"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/cgpa_grade_earned"
+                            android:layout_width="55dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:id="@+id/divider9"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/cgpa_total_grade_point"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="0.00"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:id="@+id/divider10"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/cgpa_total_credit_hour"
+                            android:layout_width="55dp"
+                            android:layout_height="wrap_content"
+                            android:text="0.00"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:id="@+id/divider16"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/cgpa_total_g_x_c"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="0.00"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:id="@+id/divider13"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/cgpa_total_sgpa"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="0.00"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:id="@+id/divider15"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/divider17"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintBottom_toTopOf="@id/linearlout"
+                        app:layout_constraintEnd_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintStart_toStartOf="@+id/calculator_screen_view" />
+
+                    <View
+                        android:id="@+id/divider12"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintBottom_toBottomOf="@id/linearlout"
+                        app:layout_constraintEnd_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintStart_toStartOf="@+id/calculator_screen_view" />
+
+                    <LinearLayout
+
+                        android:id="@+id/linearLayout10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toTopOf="@+id/divider19"
+                        app:layout_constraintEnd_toEndOf="@+id/calculator_screen_view"
+                        app:layout_constraintStart_toStartOf="@+id/calculator_screen_view">
+
+                        <TextView
+
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="Status"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+
+                            android:id="@+id/view2"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+
+                            android:id="@+id/textView39"
+                            android:layout_width="55dp"
+                            android:layout_height="wrap_content"
+                            android:text="G.E."
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="G.P."
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+
+                            android:layout_width="55dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="C.H."
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="G × C"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+
+                            android:id="@+id/view"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="?android:attr/listDivider"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cal_total_course"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="SGPA"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/calculator_screen_view"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="18dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="CGPA Calculator"
+                    android:textColor="@color/colorWhiteBackground"
+                    app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/cgpa_cal_info"
+                    android:layout_width="30dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="20dp"
+                    app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dot" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="397dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:background="#000000">
+
+                <Button
+
+                    android:id="@+id/cal_del_button"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/squar_round_gradiant"
+                    android:text="DEL"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+
+                    android:id="@+id/cal_clear_button"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/squar_round_gradiant"
+                    android:text="AC"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/cal_cgpa_result"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/squar_round_white"
+                    android:gravity="center"
+                    android:maxLength="12"
+                    android:text="CGPA: 0.00"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/cal_del_button"
+                    app:layout_constraintEnd_toStartOf="@+id/cal_del_button"
+                    app:layout_constraintStart_toEndOf="@+id/cal_clear_button"
+                    app:layout_constraintTop_toTopOf="@+id/cal_clear_button" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="397dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:background="#000000"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/s"
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="3dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/squar_round_gradiant"
+                    android:text="PREV."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp" />
+
+                <Button
+
+                    android:id="@+id/s1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/recycler_bacground"
+                    android:text="First Semester"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <Button
+
+                    android:id="@+id/s2"
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="3dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/squar_round_gradiant"
+                    android:text="NEXT"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/round_background_black"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:outlineAmbientShadowColor="#00CA4040">
+
+                    <Button
+
+                        android:id="@+id/grade_credit_button"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_orange"
+                        android:text="G | C"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C_four_button"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_orange"
+                        android:text="C: 4"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C_three_button"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_orange"
+                        android:text="C: 3"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C_two_button"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_orange"
+                        android:text="C: 2"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/C_onePointFive_button"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_orange"
+                        android:text="C:1.5"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C_pointSevenFive_button"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_orange"
+                        android:text="C:.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/A_plus_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="A+"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_A_plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="4.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_A_plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="4.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/C2_A_plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="4.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/C15_A_plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="4.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_A_plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="4.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/A_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="A"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_A"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_A"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_A"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_A"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_A"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/A_minus_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="A-"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_A_minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_A_minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_A_minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_A_minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_A_minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/B_plus_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="B+"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_B_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_B_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_B_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_B_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_B_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/B_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="B"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_B"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_B"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_B"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_B"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_B"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="3.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/B_minus_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="B-"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_B_Minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_B_Minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_B_Minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_B_Minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_B_Minus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.75"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/C_plus_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="C+"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_C_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_C_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_C_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_C_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_C_Plus"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.50"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/C_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:hint="45-49"
+                        android:text="C"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_C"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_C"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_C"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/C15_C"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_C"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.25"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/D_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:hint="40-44"
+                        android:text="D"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_D"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_D"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_D"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_D"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_D"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="2.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:id="@+id/F_button"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_red"
+                        android:text="F"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C4_F"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="0.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C3_F"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="0.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C2_F"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="0.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C15_F"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="0.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+
+                        android:id="@+id/C75_F"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/squar_round_blue_gradieant"
+                        android:text="0.00"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

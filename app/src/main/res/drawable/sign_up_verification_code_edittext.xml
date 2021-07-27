@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="46dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#ffffff" />
+            <corners android:radius="10dp"/>
+            <padding android:bottom="5dp" />
+        </shape>
+    </item>
+
+    <item
+        android:height="70dp"
+        android:gravity="top" >
+        <shape android:shape="line">
+            <stroke android:color="#2962FF"
+                android:width="1dp"
+                android:dashGap="10dp"
+                android:dashWidth="34dp"/>
+            <padding android:bottom="16dp" />
+        </shape>
+    </item>
+</layer-list>
+

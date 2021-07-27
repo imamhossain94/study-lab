@@ -1,0 +1,116 @@
+[
+ {
+   "Student_ID": 19201106001,
+   "Student_Name": "Bushra Binte Mujib",
+   "Student_Cgpa": 3.38,
+   "Student_Sgpa": 3.38
+ },
+ {
+   "Student_ID": 19201106002,
+   "Student_Name": "Md. Masud Rana",
+   "Student_Cgpa": 2.25,
+   "Student_Sgpa": 2.25
+ },
+ {
+   "Student_ID": 19201106003,
+   "Student_Name": "Saima Akter Mony",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201106004,
+   "Student_Name": "Ashikur Rahman Alif",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 19201106005,
+   "Student_Name": "Shams  Afroza",
+   "Student_Cgpa": 3.63,
+   "Student_Sgpa": 3.63
+ },
+ {
+   "Student_ID": 19201106006,
+   "Student_Name": "Farjana  Yasmin",
+   "Student_Cgpa": 3.44,
+   "Student_Sgpa": 3.44
+ },
+ {
+   "Student_ID": 19201106007,
+   "Student_Name": "M S Khadija Akter",
+   "Student_Cgpa": 3.19,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 19201106008,
+   "Student_Name": "Munshi Md. Mohiminul\nAlam Nayeem",
+   "Student_Cgpa": 3.44,
+   "Student_Sgpa": 3.44
+ },
+ {
+   "Student_ID": 19201106009,
+   "Student_Name": "Nilufar Yeasmin\nChowdhury",
+   "Student_Cgpa": 2.88,
+   "Student_Sgpa": 2.88
+ },
+ {
+   "Student_ID": 19201106011,
+   "Student_Name": "Tanjina Akther Nipa",
+   "Student_Cgpa": 1.94,
+   "Student_Sgpa": 1.94
+ },
+ {
+   "Student_ID": 19201106012,
+   "Student_Name": "Hasna Hena Liza",
+   "Student_Cgpa": 2.88,
+   "Student_Sgpa": 2.88
+ },
+ {
+   "Student_ID": 19201106013,
+   "Student_Name": "Musa  Kolimulla",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 19201106014,
+   "Student_Name": "Maher  Ritan",
+   "Student_Cgpa": 3.13,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 19201106015,
+   "Student_Name": "Majbaul Islam Rakib",
+   "Student_Cgpa": 3.63,
+   "Student_Sgpa": 3.63
+ },
+ {
+   "Student_ID": 19201106016,
+   "Student_Name": "Farhana Akter Bobi",
+   "Student_Cgpa": 1.81,
+   "Student_Sgpa": 1.81
+ },
+ {
+   "Student_ID": 19201106017,
+   "Student_Name": "Md. Tanvir Hossain",
+   "Student_Cgpa": 2.69,
+   "Student_Sgpa": 2.69
+ },
+ {
+   "Student_ID": 19201106018,
+   "Student_Name": "Md. Ohid Alam",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 19201106019,
+   "Student_Name": "Hafsa Islam Surma",
+   "Student_Cgpa": 2.13,
+   "Student_Sgpa": 2.13
+ },
+ {
+   "Student_ID": 19201106020,
+   "Student_Name": "Ishrat Zahan Oyishee",
+   "Student_Cgpa": 3.31,
+   "Student_Sgpa": 3.31
+ }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="@color/colorBlue2"
+        android:pathData="M41.54,40.91V36.83a1,1,0,0,1,1-1H69.09a1,1,0,0,1,1,1v4.08a1,1,0,0,1-1,1H42.56A1,1,0,0,1,41.54,40.91Zm1,11.22H69.09a1,1,0,0,0,1-1V47a1,1,0,0,0-1-1H42.56a1,1,0,0,0-1,1v4.08A1,1,0,0,0,42.56,52.13ZM80.71,72.5a21.55,21.55,0,0,0,0,8.24,2.05,2.05,0,0,1,1.65,2v2a2,2,0,0,1-2,2H35.42A10.21,10.21,0,0,1,25.21,76.62V31.72a10.21,10.21,0,0,1,10.21-10.2h44.9a2,2,0,0,1,2,2V70.5A2,2,0,0,1,80.71,72.5Zm-5.24,0h-40a4.08,4.08,0,0,0,0,8.16H75.47A32.77,32.77,0,0,1,75.47,72.54Zm0.77-44.9H35.42a4.08,4.08,0,0,0-4.08,4.08V67.27a10.07,10.07,0,0,1,4.08-0.85H76.24Z" />
+    <path
+        android:strokeColor="@color/colorBlue2"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:pathData="M 16.55 2.5 L 91.45 2.5 Q 105.5 2.5 105.5 16.55 L 105.5 91.45 Q 105.5 105.5 91.45 105.5 L 16.55 105.5 Q 2.5 105.5 2.5 91.45 L 2.5 16.55 Q 2.5 2.5 16.55 2.5 Z" />
+</vector>

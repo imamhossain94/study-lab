@@ -1,0 +1,110 @@
+[
+ {
+   "Student_ID": 17183102001,
+   "Student_Name": "Ommay  Rokeya",
+   "Student_Cgpa": 3.33,
+   "Student_Sgpa": 3.31
+ },
+ {
+   "Student_ID": 17183102002,
+   "Student_Name": "Sraboni  das",
+   "Student_Cgpa": 2.93,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17183102004,
+   "Student_Name": "Afnan Mostakin Sakin",
+   "Student_Cgpa": 2.09,
+   "Student_Sgpa": 2
+ },
+ {
+   "Student_ID": 17183102006,
+   "Student_Name": "Mohammad Rakibul Hasan",
+   "Student_Cgpa": 2.98,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17183102007,
+   "Student_Name": "Salaha Akter Sumi",
+   "Student_Cgpa": 3.11,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 17183102008,
+   "Student_Name": "Md. Mustafijur Rahman",
+   "Student_Cgpa": 3.11,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17183102009,
+   "Student_Name": "Md. Abu Al Saeid",
+   "Student_Cgpa": 3.23,
+   "Student_Sgpa": 3.31
+ },
+ {
+   "Student_ID": 17183102011,
+   "Student_Name": "Sumaya  Aktar",
+   "Student_Cgpa": 2.86,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17183102012,
+   "Student_Name": "Mahmudul Haque Shaim",
+   "Student_Cgpa": 3.3,
+   "Student_Sgpa": 3.44
+ },
+ {
+   "Student_ID": 17183102015,
+   "Student_Name": "Md. Emon Ali",
+   "Student_Cgpa": 2.29,
+   "Student_Sgpa": 1.75
+ },
+ {
+   "Student_ID": 17183102017,
+   "Student_Name": "Md. Didar Alam",
+   "Student_Cgpa": 1.92,
+   "Student_Sgpa": 2.13
+ },
+ {
+   "Student_ID": 17183102018,
+   "Student_Name": "Yusa Ibna Saif",
+   "Student_Cgpa": 2.23,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17183102019,
+   "Student_Name": "Suhana  Suhi",
+   "Student_Cgpa": 0.5,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17183102022,
+   "Student_Name": "Rudaba  Tasnim",
+   "Student_Cgpa": 2.2,
+   "Student_Sgpa": 1.94
+ },
+ {
+   "Student_ID": 17183102023,
+   "Student_Name": "Md. Sayed Irfan",
+   "Student_Cgpa": 3.28,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17183102030,
+   "Student_Name": "Syeda Tahmina Rahman",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 2.83
+ },
+ {
+   "Student_ID": 17183102033,
+   "Student_Name": "Sumaya  Khaleque",
+   "Student_Cgpa": 3.04,
+   "Student_Sgpa": 2.63
+ },
+ {
+   "Student_ID": 17183102036,
+   "Student_Name": "Md. Ashikur Rahman",
+   "Student_Cgpa": 3.45,
+   "Student_Sgpa": 3.38
+ }
+]

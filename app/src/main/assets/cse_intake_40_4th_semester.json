@@ -1,0 +1,416 @@
+[
+ {
+   "Student_ID": 18191103001,
+   "Student_Name": "Ahmodullah",
+   "Student_Cgpa": 1.61,
+   "Student_Sgpa": 2.45
+ },
+ {
+   "Student_ID": 18191103002,
+   "Student_Name": "Anamika  Anu",
+   "Student_Cgpa": 3.35,
+   "Student_Sgpa": 3.5
+ },
+ {
+   "Student_ID": 18191103003,
+   "Student_Name": "Arafath Ullah Khan",
+   "Student_Cgpa": 1.59,
+   "Student_Sgpa": 2.33
+ },
+ {
+   "Student_ID": 18191103005,
+   "Student_Name": "Saiful  Islam",
+   "Student_Cgpa": 2.79,
+   "Student_Sgpa": 2.85
+ },
+ {
+   "Student_ID": 18191103007,
+   "Student_Name": "Pallab  Biswas",
+   "Student_Cgpa": 3.95,
+   "Student_Sgpa": 3.98
+ },
+ {
+   "Student_ID": 18191103008,
+   "Student_Name": "Arnob  Mallick",
+   "Student_Cgpa": 2.96,
+   "Student_Sgpa": 2.7
+ },
+ {
+   "Student_ID": 18191103009,
+   "Student_Name": "Nurahiath  Jhoti",
+   "Student_Cgpa": 3.02,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 18191103010,
+   "Student_Name": "Hamim Ahmed Moon",
+   "Student_Cgpa": 3.25,
+   "Student_Sgpa": 3.25
+ },
+ {
+   "Student_ID": 18191103011,
+   "Student_Name": "Md. Nafis Saiful",
+   "Student_Cgpa": 3.56,
+   "Student_Sgpa": 3.6
+ },
+ {
+   "Student_ID": 18191103012,
+   "Student_Name": "Md. Nur-Alam Siddikey",
+   "Student_Cgpa": 3.69,
+   "Student_Sgpa": 3.85
+ },
+ {
+   "Student_ID": 18191103013,
+   "Student_Name": "Md. Mahadi Hasan Fahim",
+   "Student_Cgpa": 3.08,
+   "Student_Sgpa": 3.23
+ },
+ {
+   "Student_ID": 18191103016,
+   "Student_Name": "Md. Shakil Khan",
+   "Student_Cgpa": 1.68,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18191103017,
+   "Student_Name": "Sagor Kumar Dutta",
+   "Student_Cgpa": 3.78,
+   "Student_Sgpa": 3.88
+ },
+ {
+   "Student_ID": 18191103018,
+   "Student_Name": "Jannatul Nabia Meem",
+   "Student_Cgpa": 3.14,
+   "Student_Sgpa": 3.6
+ },
+ {
+   "Student_ID": 18191103020,
+   "Student_Name": "Nazmul Hasan Sanny",
+   "Student_Cgpa": 3.2,
+   "Student_Sgpa": 3.08
+ },
+ {
+   "Student_ID": 18191103021,
+   "Student_Name": "Rifa Tammna Jaman\nChetona",
+   "Student_Cgpa": 3.56,
+   "Student_Sgpa": 3.48
+ },
+ {
+   "Student_ID": 18191103022,
+   "Student_Name": "Md. Sadman Muhtasim\nBillah",
+   "Student_Cgpa": 2.7,
+   "Student_Sgpa": 2.9
+ },
+ {
+   "Student_ID": 18191103025,
+   "Student_Name": "Farhana Akter Farha",
+   "Student_Cgpa": 3.36,
+   "Student_Sgpa": 2.93
+ },
+ {
+   "Student_ID": 18191103026,
+   "Student_Name": "Md. Azizul Hakim Masuk",
+   "Student_Cgpa": 3.11,
+   "Student_Sgpa": 3.38
+ },
+ {
+   "Student_ID": 18191103028,
+   "Student_Name": "A S M Morshedul Hoque",
+   "Student_Cgpa": 3.64,
+   "Student_Sgpa": 3.63
+ },
+ {
+   "Student_ID": 18191103029,
+   "Student_Name": "Mitul  Das",
+   "Student_Cgpa": 2.65,
+   "Student_Sgpa": 3.28
+ },
+ {
+   "Student_ID": 18191103031,
+   "Student_Name": "Asib  Ahmed",
+   "Student_Cgpa": 3.72,
+   "Student_Sgpa": 3.73
+ },
+ {
+   "Student_ID": 18191103032,
+   "Student_Name": "Mohammad  Faisal",
+   "Student_Cgpa": 3.77,
+   "Student_Sgpa": 3.95
+ },
+ {
+   "Student_ID": 18191103033,
+   "Student_Name": "Md. Abir Hossain",
+   "Student_Cgpa": 3.11,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 18191103034,
+   "Student_Name": "Md. Abu Kashem",
+   "Student_Cgpa": 1.82,
+   "Student_Sgpa": 1.05
+ },
+ {
+   "Student_ID": 18191103035,
+   "Student_Name": "Sourav  Biswas",
+   "Student_Cgpa": 2.27,
+   "Student_Sgpa": 2.35
+ },
+ {
+   "Student_ID": 18191103036,
+   "Student_Name": "Anik  Biswas",
+   "Student_Cgpa": 2.21,
+   "Student_Sgpa": 2.38
+ },
+ {
+   "Student_ID": 18191103037,
+   "Student_Name": "Tanveer  Tayeb",
+   "Student_Cgpa": 3.48,
+   "Student_Sgpa": 3.83
+ },
+ {
+   "Student_ID": 18191103040,
+   "Student_Name": "Md. Rakibul Islam",
+   "Student_Cgpa": 3.48,
+   "Student_Sgpa": 3.75
+ },
+ {
+   "Student_ID": 18191103041,
+   "Student_Name": "T. M. Ahkam - Ul - Haque\nBhuiyan",
+   "Student_Cgpa": 3.04,
+   "Student_Sgpa": 2.6
+ },
+ {
+   "Student_ID": 18191103042,
+   "Student_Name": "Md. Mahbubur Rahman",
+   "Student_Cgpa": 3.67,
+   "Student_Sgpa": 3.8
+ },
+ {
+   "Student_ID": 18191103043,
+   "Student_Name": "Md. Abdur Rayhan",
+   "Student_Cgpa": 2.04,
+   "Student_Sgpa": 2.2
+ },
+ {
+   "Student_ID": 18191103044,
+   "Student_Name": "Shakibur  Rahman",
+   "Student_Cgpa": 2.58,
+   "Student_Sgpa": 2.45
+ },
+ {
+   "Student_ID": 18191103048,
+   "Student_Name": "Md. Mahedy Hasan",
+   "Student_Cgpa": 2.78,
+   "Student_Sgpa": 2.38
+ },
+ {
+   "Student_ID": 18191103049,
+   "Student_Name": "Asma Akter Popy",
+   "Student_Cgpa": 1.85,
+   "Student_Sgpa": 1.8
+ },
+ {
+   "Student_ID": 18191103050,
+   "Student_Name": "Shoaib  Akter",
+   "Student_Cgpa": 2.99,
+   "Student_Sgpa": 2.95
+ },
+ {
+   "Student_ID": 18191103052,
+   "Student_Name": "Md. Nahid Rabbi",
+   "Student_Cgpa": 2.39,
+   "Student_Sgpa": 2.6
+ },
+ {
+   "Student_ID": 18191103053,
+   "Student_Name": "S. M. Mehedi",
+   "Student_Cgpa": 3.99,
+   "Student_Sgpa": 4
+ },
+ {
+   "Student_ID": 18191103054,
+   "Student_Name": "Imtiaz Atick Akash",
+   "Student_Cgpa": 3.78,
+   "Student_Sgpa": 3.85
+ },
+ {
+   "Student_ID": 18191103056,
+   "Student_Name": "Md. Anisur Rahman",
+   "Student_Cgpa": 0.69,
+   "Student_Sgpa": 0.53
+ },
+ {
+   "Student_ID": 18191103057,
+   "Student_Name": "Mahmudul  Hasan",
+   "Student_Cgpa": 2.07,
+   "Student_Sgpa": 1.81
+ },
+ {
+   "Student_ID": 18191103058,
+   "Student_Name": "Yasin  Chowdhury",
+   "Student_Cgpa": 3.37,
+   "Student_Sgpa": 3.59
+ },
+ {
+   "Student_ID": 18191103059,
+   "Student_Name": "Adnan  Iqbal",
+   "Student_Cgpa": 3.35,
+   "Student_Sgpa": 3.18
+ },
+ {
+   "Student_ID": 18191103061,
+   "Student_Name": "Mahady Hasan Munna",
+   "Student_Cgpa": 2.59,
+   "Student_Sgpa": 2.4
+ },
+ {
+   "Student_ID": 18191103062,
+   "Student_Name": "Md. Opu Raihan",
+   "Student_Cgpa": 2.07,
+   "Student_Sgpa": 2.43
+ },
+ {
+   "Student_ID": 18191103065,
+   "Student_Name": "Abdullah Al Isam",
+   "Student_Cgpa": 3.01,
+   "Student_Sgpa": 2.9
+ },
+ {
+   "Student_ID": 18191103066,
+   "Student_Name": "Saznin Ateka Smrity",
+   "Student_Cgpa": 3.23,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 18191103069,
+   "Student_Name": "Muhammad Baki Billah",
+   "Student_Cgpa": 1.32,
+   "Student_Sgpa": 1.26
+ },
+ {
+   "Student_ID": 18191103070,
+   "Student_Name": "Maria  Sultana",
+   "Student_Cgpa": 2.44,
+   "Student_Sgpa": 1.83
+ },
+ {
+   "Student_ID": 18191103071,
+   "Student_Name": "Suraia Afrin Mou",
+   "Student_Cgpa": 3.43,
+   "Student_Sgpa": 3.58
+ },
+ {
+   "Student_ID": 18191103072,
+   "Student_Name": "Md. Asif Hossain",
+   "Student_Cgpa": 3.82,
+   "Student_Sgpa": 3.95
+ },
+ {
+   "Student_ID": 18191103074,
+   "Student_Name": "Mst. Moushumi Khatun",
+   "Student_Cgpa": 2.52,
+   "Student_Sgpa": 2.75
+ },
+ {
+   "Student_ID": 18191103075,
+   "Student_Name": "Jannatul  Naeem",
+   "Student_Cgpa": 2.47,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 18191103076,
+   "Student_Name": "Rakibul Islam Emon",
+   "Student_Cgpa": 1.78,
+   "Student_Sgpa": 2.08
+ },
+ {
+   "Student_ID": 18191103077,
+   "Student_Name": "Md. Minhajul Islam",
+   "Student_Cgpa": 3.65,
+   "Student_Sgpa": 3.85
+ },
+ {
+   "Student_ID": 18191103078,
+   "Student_Name": "Ashraful Islam Ony",
+   "Student_Cgpa": 2.52,
+   "Student_Sgpa": 2.28
+ },
+ {
+   "Student_ID": 18191103079,
+   "Student_Name": "Md. Al  - Moued Prodhan",
+   "Student_Cgpa": 2.6,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18191103082,
+   "Student_Name": "Saiyera  Rehmina",
+   "Student_Cgpa": 3.97,
+   "Student_Sgpa": 4
+ },
+ {
+   "Student_ID": 18191103084,
+   "Student_Name": "Md. Munna Shikder",
+   "Student_Cgpa": 1.5,
+   "Student_Sgpa": 0.75
+ },
+ {
+   "Student_ID": 18191103086,
+   "Student_Name": "Md.  Shamim",
+   "Student_Cgpa": 1.43,
+   "Student_Sgpa": 1.04
+ },
+ {
+   "Student_ID": 18191103087,
+   "Student_Name": "Tahsina Sadia Meem",
+   "Student_Cgpa": 1.99,
+   "Student_Sgpa": 2.45
+ },
+ {
+   "Student_ID": 18191103089,
+   "Student_Name": "Humaira Gulshan Putul",
+   "Student_Cgpa": 3.92,
+   "Student_Sgpa": 4
+ },
+ {
+   "Student_ID": 18191103090,
+   "Student_Name": "Fariea Tabassum Mow",
+   "Student_Cgpa": 3.89,
+   "Student_Sgpa": 3.95
+ },
+ {
+   "Student_ID": 18191103060,
+   "Student_Name": "Md. Nahidul Islam",
+   "Student_Cgpa": 2.56,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 18191103091,
+   "Student_Name": "Hasan  Khaium",
+   "Student_Cgpa": 3.83,
+   "Student_Sgpa": 3.75
+ },
+ {
+   "Student_ID": 18191103093,
+   "Student_Name": "Fatematoz  Johora",
+   "Student_Cgpa": 2.69,
+   "Student_Sgpa": 2.98
+ },
+ {
+   "Student_ID": 18191103095,
+   "Student_Name": "Mehnaz Khanam Siddique",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.75
+ },
+ {
+   "Student_ID": 18191103096,
+   "Student_Name": "Md. Abdullah Al Mamun",
+   "Student_Cgpa": 2.13,
+   "Student_Sgpa": 1.88
+ },
+ {
+   "Student_ID": 18191103101,
+   "Student_Name": "Abdulla Al Mued",
+   "Student_Cgpa": 3.73,
+   "Student_Sgpa": 3.9
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+   "Student_ID": 17181107002,
+   "Student_Name": "Md. Sarower Hossain",
+   "Student_Cgpa": 3.33,
+   "Student_Sgpa": 3.07
+ },
+ {
+   "Student_ID": 17181107004,
+   "Student_Name": "Hasan Sanzid Sifat",
+   "Student_Cgpa": 1.23,
+   "Student_Sgpa": 3.5
+ },
+ {
+   "Student_ID": 17181107008,
+   "Student_Name": "Md. Shakhaut Hossain",
+   "Student_Cgpa": 2.91,
+   "Student_Sgpa": 2.79
+ },
+ {
+   "Student_ID": 17181107009,
+   "Student_Name": "Md. Aliur Rahman Dipu",
+   "Student_Cgpa": 1.3,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17181107010,
+   "Student_Name": "Md. Fazle Rabbi",
+   "Student_Cgpa": 3.54,
+   "Student_Sgpa": 3.44
+ },
+ {
+   "Student_ID": 17181107011,
+   "Student_Name": "Nazmul  Hosen",
+   "Student_Cgpa": 2.53,
+   "Student_Sgpa": 1.34
+ },
+ {
+   "Student_ID": 17181107012,
+   "Student_Name": "Md. Liakat Ali Khan",
+   "Student_Cgpa": 3.11,
+   "Student_Sgpa": 3.03
+ },
+ {
+   "Student_ID": 17181107013,
+   "Student_Name": "Md. Mehedi Hasan",
+   "Student_Cgpa": 2.31,
+   "Student_Sgpa": 1.28
+ },
+ {
+   "Student_ID": 17181107016,
+   "Student_Name": "Md. Hriyadul Islam\nShohag",
+   "Student_Cgpa": 1.22,
+   "Student_Sgpa": 3.25
+ }
+]

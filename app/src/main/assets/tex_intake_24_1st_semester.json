@@ -1,0 +1,68 @@
+[
+ {
+   "Student_ID": 17183107001,
+   "Student_Name": "Md. Farhad Hossain",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17183107002,
+   "Student_Name": "Asikur  Rahman",
+   "Student_Cgpa": 3.49,
+   "Student_Sgpa": 3.49
+ },
+ {
+   "Student_ID": 17183107003,
+   "Student_Name": "Asifur  Rahman",
+   "Student_Cgpa": 2.09,
+   "Student_Sgpa": 2.09
+ },
+ {
+   "Student_ID": 17183107004,
+   "Student_Name": "Md. Sanaullah Rabin",
+   "Student_Cgpa": 3.9,
+   "Student_Sgpa": 3.9
+ },
+ {
+   "Student_ID": 17183107005,
+   "Student_Name": "Tanjila  Aktar",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17183107006,
+   "Student_Name": "Siful  Islam",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 17183107007,
+   "Student_Name": "Najmul  Hasan",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17183107008,
+   "Student_Name": "Rahat  Hossen",
+   "Student_Cgpa": 3.71,
+   "Student_Sgpa": 3.71
+ },
+ {
+   "Student_ID": 17183107009,
+   "Student_Name": "Jobayed Hassan Rifat",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17183107010,
+   "Student_Name": "S.K. Shadikur Rahman",
+   "Student_Cgpa": 1.92,
+   "Student_Sgpa": 1.92
+ },
+ {
+   "Student_ID": 17183107011,
+   "Student_Name": "Azizul  Hakim",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ }
+]

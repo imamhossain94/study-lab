@@ -1,0 +1,302 @@
+[
+ {
+   "Student_ID": 17182105001,
+   "Student_Name": "Md. Eiarul Islam",
+   "Student_Cgpa": 1,
+   "Student_Sgpa": 1
+ },
+ {
+   "Student_ID": 17182105002,
+   "Student_Name": "Mehedi  Hasan",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105003,
+   "Student_Name": "Muntasir  Jahan",
+   "Student_Cgpa": 2.06,
+   "Student_Sgpa": 2.06
+ },
+ {
+   "Student_ID": 17182105004,
+   "Student_Name": "Md. Imon Hossain",
+   "Student_Cgpa": null,
+   "Student_Sgpa": null
+ },
+ {
+   "Student_ID": 17182105005,
+   "Student_Name": "Md. Mosabbir Hossain",
+   "Student_Cgpa": 0.56,
+   "Student_Sgpa": 0.56
+ },
+ {
+   "Student_ID": 17182105006,
+   "Student_Name": "Most. Sadia Islam Kotha",
+   "Student_Cgpa": 2.5,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 17182105007,
+   "Student_Name": "Md Shohidul Islam",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105008,
+   "Student_Name": "Raisul Haque Kafi",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 17182105009,
+   "Student_Name": "Miraj Ahmed Naim",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105010,
+   "Student_Name": "Reduane  Islam",
+   "Student_Cgpa": 1.13,
+   "Student_Sgpa": 1.13
+ },
+ {
+   "Student_ID": 17182105011,
+   "Student_Name": "Amena Alamgir Bristy",
+   "Student_Cgpa": 3.31,
+   "Student_Sgpa": 3.31
+ },
+ {
+   "Student_ID": 17182105012,
+   "Student_Name": "Nasrin  Sultana",
+   "Student_Cgpa": 3.19,
+   "Student_Sgpa": 3.19
+ },
+ {
+   "Student_ID": 17182105013,
+   "Student_Name": "Anny Ara Bristy Moni Sok",
+   "Student_Cgpa": 0.5,
+   "Student_Sgpa": 0.5
+ },
+ {
+   "Student_ID": 17182105014,
+   "Student_Name": "MD. Rakib Bin Anwar",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105015,
+   "Student_Name": "Sharmin  Lagina",
+   "Student_Cgpa": 1.25,
+   "Student_Sgpa": 1.25
+ },
+ {
+   "Student_ID": 17182105016,
+   "Student_Name": "Amena Akter Lubna",
+   "Student_Cgpa": 0.56,
+   "Student_Sgpa": 0.56
+ },
+ {
+   "Student_ID": 17182105017,
+   "Student_Name": "Md. Ashik Hasan",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105018,
+   "Student_Name": "Faria Siddiqua Snaha",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105019,
+   "Student_Name": "Tanvir Ahmed Tanu",
+   "Student_Cgpa": 3.13,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 17182105020,
+   "Student_Name": "Ananna  Jahan",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105021,
+   "Student_Name": "Md. Jihan Akon",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105022,
+   "Student_Name": "Jaifa  Rahman",
+   "Student_Cgpa": 1.63,
+   "Student_Sgpa": 1.63
+ },
+ {
+   "Student_ID": 17182105023,
+   "Student_Name": "Shohana  Sulthana",
+   "Student_Cgpa": 3,
+   "Student_Sgpa": 3
+ },
+ {
+   "Student_ID": 17182105024,
+   "Student_Name": "Tanzina Jahan Tarin",
+   "Student_Cgpa": 2.81,
+   "Student_Sgpa": 2.81
+ },
+ {
+   "Student_ID": 17182105025,
+   "Student_Name": "Md. Sohel Rana",
+   "Student_Cgpa": 2.69,
+   "Student_Sgpa": 2.69
+ },
+ {
+   "Student_ID": 17182105026,
+   "Student_Name": "Tahsina Mohsin Muna",
+   "Student_Cgpa": 2.58,
+   "Student_Sgpa": 2.58
+ },
+ {
+   "Student_ID": 17182105027,
+   "Student_Name": "Tousib Hassan Khan\nChowdhury",
+   "Student_Cgpa": 2.25,
+   "Student_Sgpa": 2.25
+ },
+ {
+   "Student_ID": 17182105028,
+   "Student_Name": "Shakil  Ahmed",
+   "Student_Cgpa": 2.31,
+   "Student_Sgpa": 2.31
+ },
+ {
+   "Student_ID": 17182105029,
+   "Student_Name": "Samia Islam Sami",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105030,
+   "Student_Name": "Md. Mahbub Hasan",
+   "Student_Cgpa": 2.06,
+   "Student_Sgpa": 2.06
+ },
+ {
+   "Student_ID": 17182105031,
+   "Student_Name": "Rubyat  Imroj",
+   "Student_Cgpa": 1.69,
+   "Student_Sgpa": 1.69
+ },
+ {
+   "Student_ID": 17182105032,
+   "Student_Name": "Asowara Rahnoom Alvi",
+   "Student_Cgpa": 2.81,
+   "Student_Sgpa": 2.81
+ },
+ {
+   "Student_ID": 17182105033,
+   "Student_Name": "Turfa  Alwali",
+   "Student_Cgpa": 1.81,
+   "Student_Sgpa": 1.81
+ },
+ {
+   "Student_ID": 17182105034,
+   "Student_Name": "Md. Ashikur Rahman",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105035,
+   "Student_Name": "Sadia Mehjabeen Turna",
+   "Student_Cgpa": 1.94,
+   "Student_Sgpa": 1.94
+ },
+ {
+   "Student_ID": 17182105036,
+   "Student_Name": "Jui Khanom Orna",
+   "Student_Cgpa": 0.5,
+   "Student_Sgpa": 0.5
+ },
+ {
+   "Student_ID": 17182105037,
+   "Student_Name": "Imran  Sheikh",
+   "Student_Cgpa": 2.81,
+   "Student_Sgpa": 2.81
+ },
+ {
+   "Student_ID": 17182105038,
+   "Student_Name": "Trishna  Khatun",
+   "Student_Cgpa": 2.42,
+   "Student_Sgpa": 2.42
+ },
+ {
+   "Student_ID": 17182105039,
+   "Student_Name": "Hasifa  Akter",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105040,
+   "Student_Name": "Kaniz Fatima Anika",
+   "Student_Cgpa": 2.5,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 17182105041,
+   "Student_Name": "Junnu Raeen Jannah",
+   "Student_Cgpa": 2.25,
+   "Student_Sgpa": 2.25
+ },
+ {
+   "Student_ID": 17182105042,
+   "Student_Name": "Irin Jahan Naima",
+   "Student_Cgpa": 3.56,
+   "Student_Sgpa": 3.56
+ },
+ {
+   "Student_ID": 17182105043,
+   "Student_Name": "Banna  Banik",
+   "Student_Cgpa": 2.63,
+   "Student_Sgpa": 2.63
+ },
+ {
+   "Student_ID": 17182105044,
+   "Student_Name": "Md. Arafat Rahman",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105045,
+   "Student_Name": "Aysa Siddika Arpa",
+   "Student_Cgpa": 2.94,
+   "Student_Sgpa": 2.94
+ },
+ {
+   "Student_ID": 17182105046,
+   "Student_Name": "Rahima  Akter",
+   "Student_Cgpa": 1.13,
+   "Student_Sgpa": 1.13
+ },
+ {
+   "Student_ID": 17182105047,
+   "Student_Name": "Md. Abdur Rahman Khan\nFattah",
+   "Student_Cgpa": 3.06,
+   "Student_Sgpa": 3.06
+ },
+ {
+   "Student_ID": 17182105048,
+   "Student_Name": "Aysha  Siddiqa",
+   "Student_Cgpa": 2.75,
+   "Student_Sgpa": 2.75
+ },
+ {
+   "Student_ID": 17182105049,
+   "Student_Name": "Lutfun Nessa Lamia",
+   "Student_Cgpa": 1.5,
+   "Student_Sgpa": 0
+ },
+ {
+   "Student_ID": 17182105050,
+   "Student_Name": "Tama  Sen",
+   "Student_Cgpa": 0,
+   "Student_Sgpa": 0
+ }
+]

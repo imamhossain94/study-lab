@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containers"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_view_background"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/session_text"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/spinner_bacground_smoke"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center|left"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:singleLine="true"
+            android:textColor="#3D5AFE"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/routine_year_edittext"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tag_container_one" />
+
+        <Spinner
+            android:id="@+id/session_spinner"
+            style="@style/Spinner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/session_text"
+            app:layout_constraintEnd_toEndOf="@+id/session_text"
+            app:layout_constraintStart_toStartOf="@+id/session_text"
+            app:layout_constraintTop_toTopOf="@+id/session_text" />
+
+        <TextView
+            android:id="@+id/routine_year_edittext"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/spinner_bacground_smoke"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#3D5AFE"
+            android:textColorHint="#AA3D5AFE"
+            app:layout_constraintBottom_toBottomOf="@+id/session_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/session_text"
+            app:layout_constraintTop_toTopOf="@+id/session_text" />
+
+        <Spinner
+            android:id="@+id/session_year"
+            style="@style/Spinner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/routine_year_edittext"
+            app:layout_constraintEnd_toEndOf="@+id/routine_year_edittext"
+            app:layout_constraintStart_toStartOf="@+id/routine_year_edittext"
+            app:layout_constraintTop_toTopOf="@+id/routine_year_edittext" />
+
+        <TextView
+            android:id="@+id/semester_text"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/spinner_bacground_smoke"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center|left"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#3D5AFE"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/routine_type_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/session_text" />
+
+        <Spinner
+            android:id="@+id/semester_spinner"
+            style="@style/Spinner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/semester_text"
+            app:layout_constraintEnd_toEndOf="@+id/semester_text"
+            app:layout_constraintStart_toStartOf="@+id/semester_text"
+            app:layout_constraintTop_toTopOf="@+id/semester_text" />
+
+        <TextView
+            android:id="@+id/routine_type_text"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/spinner_bacground_smoke"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center|left"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#3D5AFE"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/semester_text"
+            app:layout_constraintTop_toBottomOf="@+id/routine_year_edittext" />
+
+        <Spinner
+            android:id="@+id/routine_type_spinner"
+            style="@style/Spinner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/routine_type_text"
+            app:layout_constraintEnd_toEndOf="@+id/routine_type_text"
+            app:layout_constraintStart_toStartOf="@+id/routine_type_text"
+            app:layout_constraintTop_toTopOf="@+id/routine_type_text" />
+
+        <TextView
+            android:id="@+id/routine_title"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#3D5AFE"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:gravity="center|left"
+            android:paddingStart="15dp"
+            android:text="UPLOAD ROUTINE"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/close_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/squar_round_white_button"
+            android:clickable="true"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/routine_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/routine_title"
+            app:srcCompat="@drawable/cross" />
+
+        <LinearLayout
+            android:id="@+id/tag_container_one"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/routine_title">
+
+            <TextView
+                android:id="@+id/routine_program"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/spinner_bacground_smoke"
+                android:clickable="true"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:singleLine="true"
+                android:text="CSE"
+                android:textAllCaps="false"
+                android:textColor="#3D5AFE"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/routine_intake"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_bacground_smoke"
+                android:clickable="true"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:singleLine="true"
+                android:text="INTAKE 37"
+                android:textAllCaps="false"
+                android:textColor="#3D5AFE"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/section_spinner"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner_bacground_smoke" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/routine_type_text">
+
+            <Button
+                android:id="@+id/browse_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/intro_button_blue"
+                android:text="Browse Routine Image"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/upload_routine_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/routine_type_text" />
+
+            <Button
+                android:id="@+id/upload_routine_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/intro_button_green"
+                android:text="Upload"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/browse_image_button"
+                app:layout_constraintTop_toBottomOf="@+id/routine_type_text" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

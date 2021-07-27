@@ -1,0 +1,422 @@
+[
+ {
+   "Student ID": 18191102001,
+   "Student Name": "Israt Jahan Asha",
+   "CGPA": 1.69,
+   "SGPA": 1.69
+ },
+ {
+   "Student ID": 18191102002,
+   "Student Name": "Kaniz Fatema Lamia",
+   "CGPA": 3.69,
+   "SGPA": 3.69
+ },
+ {
+   "Student ID": 18191102003,
+   "Student Name": "Sumaya Akter Sweety",
+   "CGPA": 3.25,
+   "SGPA": 3.25
+ },
+ {
+   "Student ID": 18191102004,
+   "Student Name": "Esrat Jahan Tonika",
+   "CGPA": 3.19,
+   "SGPA": 3.19
+ },
+ {
+   "Student ID": 18191102005,
+   "Student Name": "Md. Azharul Islam",
+   "CGPA": 3.25,
+   "SGPA": 3.25
+ },
+ {
+   "Student ID": 18191102006,
+   "Student Name": "Mili  Akter",
+   "CGPA": 2.44,
+   "SGPA": 2.44
+ },
+ {
+   "Student ID": 18191102007,
+   "Student Name": "Gazi Raunaq Rashed Rafi",
+   "CGPA": 3.44,
+   "SGPA": 3.44
+ },
+ {
+   "Student ID": 18191102008,
+   "Student Name": "Saikat  Mondol",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102009,
+   "Student Name": "Farhin Ahmed Riya",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102010,
+   "Student Name": "Shema Akther Urmi",
+   "CGPA": 3.44,
+   "SGPA": 3.44
+ },
+ {
+   "Student ID": 18191102011,
+   "Student Name": "Mohd. Seyam Hossain Samir",
+   "CGPA": 2.5,
+   "SGPA": 2.5
+ },
+ {
+   "Student ID": 18191102012,
+   "Student Name": "Al-Amin  Hossain",
+   "CGPA": 1.81,
+   "SGPA": 1.81
+ },
+ {
+   "Student ID": 18191102013,
+   "Student Name": "Saidur  Rahman",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102014,
+   "Student Name": "Md. Moshiur Rahman",
+   "CGPA": 2.67,
+   "SGPA": 2.67
+ },
+ {
+   "Student ID": 18191102015,
+   "Student Name": "Mim  Siddiky",
+   "CGPA": 2.94,
+   "SGPA": 2.94
+ },
+ {
+   "Student ID": 18191102016,
+   "Student Name": "Suriya  Aktar",
+   "CGPA": 3,
+   "SGPA": 3
+ },
+ {
+   "Student ID": 18191102017,
+   "Student Name": "Fahamida Islam Joyita",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102018,
+   "Student Name": "Mirza Mehanaz Islam",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102019,
+   "Student Name": "Maraj Hossain Rabby",
+   "CGPA": 3.13,
+   "SGPA": 3.13
+ },
+ {
+   "Student ID": 18191102020,
+   "Student Name": "Tarek Hossain Robin",
+   "CGPA": 3.13,
+   "SGPA": 3.13
+ },
+ {
+   "Student ID": 18191102021,
+   "Student Name": "Afsana Rahman Asha",
+   "CGPA": 1.75,
+   "SGPA": 1.75
+ },
+ {
+   "Student ID": 18191102022,
+   "Student Name": "Faiza Noushin Momo",
+   "CGPA": 3.56,
+   "SGPA": 3.56
+ },
+ {
+   "Student ID": 18191102023,
+   "Student Name": "Nafisa  Azad",
+   "CGPA": 3.19,
+   "SGPA": 3.19
+ },
+ {
+   "Student ID": 18191102024,
+   "Student Name": "Al Mujahid Abir",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102025,
+   "Student Name": "Faria  Habib",
+   "CGPA": 2.5,
+   "SGPA": 2.5
+ },
+ {
+   "Student ID": 18191102026,
+   "Student Name": "Sadia Akter Mim",
+   "CGPA": 3.19,
+   "SGPA": 3.19
+ },
+ {
+   "Student ID": 18191102027,
+   "Student Name": "Sabrina Islam Lia",
+   "CGPA": 2.31,
+   "SGPA": 2.31
+ },
+ {
+   "Student ID": 18191102028,
+   "Student Name": "Most. Meher Fariha Nigar Promi",
+   "CGPA": 3.38,
+   "SGPA": 3.38
+ },
+ {
+   "Student ID": 18191102029,
+   "Student Name": "Shahreen Showkat Mim",
+   "CGPA": 3.13,
+   "SGPA": 3.13
+ },
+ {
+   "Student ID": 18191102030,
+   "Student Name": "Nawshin  Yasmin",
+   "CGPA": 3.06,
+   "SGPA": 3.06
+ },
+ {
+   "Student ID": 18191102031,
+   "Student Name": "Shakil  Mia",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102032,
+   "Student Name": "Jannatul  Ferdous",
+   "CGPA": 3.25,
+   "SGPA": 3.25
+ },
+ {
+   "Student ID": 18191102033,
+   "Student Name": "Halima Akter Mim",
+   "CGPA": 2.44,
+   "SGPA": 2.44
+ },
+ {
+   "Student ID": 18191102034,
+   "Student Name": "Samira  Mohsin",
+   "CGPA": 2.42,
+   "SGPA": 2.42
+ },
+ {
+   "Student ID": 18191102035,
+   "Student Name": "Tasfia Sultana Labiba",
+   "CGPA": 3.08,
+   "SGPA": 3.08
+ },
+ {
+   "Student ID": 18191102036,
+   "Student Name": "Sazzad  Hossain",
+   "CGPA": 1.31,
+   "SGPA": 1.31
+ },
+ {
+   "Student ID": 18191102037,
+   "Student Name": "A.K.M Sadiqul Hoque",
+   "CGPA": 2.63,
+   "SGPA": 2.63
+ },
+ {
+   "Student ID": 18191102038,
+   "Student Name": "Md. Siam Hossain",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102039,
+   "Student Name": "Monirul  Islam",
+   "CGPA": 0.5,
+   "SGPA": 0.5
+ },
+ {
+   "Student ID": 18191102040,
+   "Student Name": "Md. Asibur Rahman",
+   "CGPA": 2.5,
+   "SGPA": 2.5
+ },
+ {
+   "Student ID": 18191102041,
+   "Student Name": "Rokeya  Akter",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102042,
+   "Student Name": "Tasfiha Khan Raisa",
+   "CGPA": 1.69,
+   "SGPA": 1.69
+ },
+ {
+   "Student ID": 18191102043,
+   "Student Name": "Ibrahim Ibna Salam",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102044,
+   "Student Name": "Jahedul Islam Nabin",
+   "CGPA": 2.31,
+   "SGPA": 2.31
+ },
+ {
+   "Student ID": 18191102045,
+   "Student Name": "M. Ashik Mahmud",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102046,
+   "Student Name": "Asrafun Ahmed Hima",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102047,
+   "Student Name": "Yakutun Nesa Tajrin",
+   "CGPA": 2.94,
+   "SGPA": 2.94
+ },
+ {
+   "Student ID": 18191102048,
+   "Student Name": "Naznin Akter Pushpo",
+   "CGPA": 3.06,
+   "SGPA": 3.06
+ },
+ {
+   "Student ID": 18191102049,
+   "Student Name": "Md. Mehedi Hasan",
+   "CGPA": 2.69,
+   "SGPA": 2.69
+ },
+ {
+   "Student ID": 18191102050,
+   "Student Name": "Abdullah Bin Sarwar",
+   "CGPA": 3,
+   "SGPA": 3
+ },
+ {
+   "Student ID": 18191102051,
+   "Student Name": "Sanjida Alamgir Emi",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102052,
+   "Student Name": "Syeda Shahjabin Shila",
+   "CGPA": 2.5,
+   "SGPA": 2.5
+ },
+ {
+   "Student ID": 18191102054,
+   "Student Name": "Sabila Bintay Kabir",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102055,
+   "Student Name": "Afia Alom Chumki",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102056,
+   "Student Name": "Afroza Binte Alam",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102057,
+   "Student Name": "Amrin  Noor",
+   "CGPA": 3,
+   "SGPA": 3
+ },
+ {
+   "Student ID": 18191102058,
+   "Student Name": "Rana  Lamisa",
+   "CGPA": 3.5,
+   "SGPA": 3.5
+ },
+ {
+   "Student ID": 18191102046,
+   "Student Name": "Asrafun Ahmed Hima",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102047,
+   "Student Name": "Yakutun Nesa Tajrin",
+   "CGPA": 2.94,
+   "SGPA": 2.94
+ },
+ {
+   "Student ID": 18191102048,
+   "Student Name": "Naznin Akter Pushpo",
+   "CGPA": 3.06,
+   "SGPA": 3.06
+ },
+ {
+   "Student ID": 18191102049,
+   "Student Name": "Md. Mehedi Hasan",
+   "CGPA": 2.69,
+   "SGPA": 2.69
+ },
+ {
+   "Student ID": 18191102050,
+   "Student Name": "Abdullah Bin Sarwar",
+   "CGPA": 3,
+   "SGPA": 3
+ },
+ {
+   "Student ID": 18191102051,
+   "Student Name": "Sanjida Alamgir Emi",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102052,
+   "Student Name": "Syeda Shahjabin Shila",
+   "CGPA": 2.5,
+   "SGPA": 2.5
+ },
+ {
+   "Student ID": 18191102053,
+   "Student Name": "A. F. M. Sayed - Iss - Sadat",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102054,
+   "Student Name": "Sabila Bintay Kabir",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102055,
+   "Student Name": "Afia Alom Chumki",
+   "CGPA": 0,
+   "SGPA": 0
+ },
+ {
+   "Student ID": 18191102056,
+   "Student Name": "Afroza Binte Alam",
+   "CGPA": 2.88,
+   "SGPA": 2.88
+ },
+ {
+   "Student ID": 18191102057,
+   "Student Name": "Amrin  Noor",
+   "CGPA": 3,
+   "SGPA": 3
+ },
+ {
+   "Student ID": 18191102058,
+   "Student Name": "Rana  Lamisa",
+   "CGPA": 3.5,
+   "SGPA": 3.5
+ }
+]

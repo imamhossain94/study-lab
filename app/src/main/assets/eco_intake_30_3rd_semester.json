@@ -1,0 +1,44 @@
+[
+ {
+   "Student_ID": 17183106001,
+   "Student_Name": "Md. Nazmul Hasan",
+   "Student_Cgpa": 2.25,
+   "Student_Sgpa": 2
+ },
+ {
+   "Student_ID": 17183106005,
+   "Student_Name": "Mohammad Zille Khoda",
+   "Student_Cgpa": 2.96,
+   "Student_Sgpa": 3.13
+ },
+ {
+   "Student_ID": 17183106007,
+   "Student_Name": "Md.  Oyon",
+   "Student_Cgpa": 2.02,
+   "Student_Sgpa": 1.25
+ },
+ {
+   "Student_ID": 17183106008,
+   "Student_Name": "Kaniz  Fatema",
+   "Student_Cgpa": 3.81,
+   "Student_Sgpa": 3.88
+ },
+ {
+   "Student_ID": 17183106009,
+   "Student_Name": "Mohammad Musfiqur\nRahman",
+   "Student_Cgpa": 2.2,
+   "Student_Sgpa": 2.5
+ },
+ {
+   "Student_ID": 17183106010,
+   "Student_Name": "Uting Wai Marma",
+   "Student_Cgpa": 2.58,
+   "Student_Sgpa": 2.81
+ },
+ {
+   "Student_ID": 17183106011,
+   "Student_Name": "Dipanjaly  Chowdhury",
+   "Student_Cgpa": 3,
+   "Student_Sgpa": 3.13
+ }
+]
