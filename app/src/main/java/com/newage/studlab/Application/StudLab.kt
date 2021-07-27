@@ -23,7 +23,7 @@ import com.newage.studlab.Model.Results
 import com.newage.studlab.Model.UserModel.Teacher
 import com.newage.studlab.Model.UserModel.Users
 import com.newage.studlab.Plugins.getJsonDataFromAsset
-import com.newage.studlab.Services.SampleBootReceiver
+//import com.newage.studlab.Services.SampleBootReceiver
 import com.squareup.picasso.OkHttp3Downloader
 import com.squareup.picasso.Picasso
 import se.simbio.encryption.Encryption
@@ -92,13 +92,13 @@ class StudLab: Application() {
         }
 
 
-        val receiver = ComponentName(applicationContext, SampleBootReceiver::class.java)
-
-        applicationContext.packageManager.setComponentEnabledSetting(
-            receiver,
-            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
-            PackageManager.DONT_KILL_APP
-        )
+//        val receiver = ComponentName(applicationContext, SampleBootReceiver::class.java)
+//
+//        applicationContext.packageManager.setComponentEnabledSetting(
+//            receiver,
+//            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+//            PackageManager.DONT_KILL_APP
+//        )
 
 /*        val ref = FirebaseDatabase.getInstance().getReference("/AnnexApis/Api")
         ref.setValue(AnnexApis())

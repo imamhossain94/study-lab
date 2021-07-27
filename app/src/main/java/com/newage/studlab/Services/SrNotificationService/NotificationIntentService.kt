@@ -275,28 +275,42 @@ class NotificationIntentService : IntentService(NotificationIntentService::class
 
             val calendar = Calendar.getInstance()
 
-            when (val day = calendar.time.toString().substring(0,3).toLowerCase()) {
+            when (val day = calendar.time.toString().substring(0,3).toLowerCase(Locale.getDefault())) {
 
                 "sat" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
                 "sun" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
                 "mon" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
                 "tue" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
                 "wed" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
                 "thu" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
                 "fri" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
                 }
             }
 

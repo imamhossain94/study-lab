@@ -7,10 +7,18 @@ import android.content.Context
 import android.content.Intent
 import android.os.PowerManager
 import android.widget.Toast
+import com.newage.studlab.Application.StudLab.Companion.appContext
+import com.newage.studlab.Database.DatabaseHelper
+import com.newage.studlab.Model.AnnexModel.SmartRoutine
+import java.util.*
 
 
 class AlarmBroadcastReceiver : BroadcastReceiver() {
 
+
+    init {
+        notifyData(appContext)
+    }
 
     override fun onReceive(context: Context, intent: Intent) {
 
@@ -23,7 +31,7 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
         wakeLock.acquire(10*60*1000L /*10 minutes*/)
 
         // Put here YOUR code.
-        //updateAppWidget(context)
+        notifyData(appContext)
 
         wakeLock.release()
     }
@@ -46,24 +54,55 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
     }
 
 
-//    private fun updateAppWidget(context: Context) {
-//
-//        val views = RemoteViews(context.packageName, R.layout.app_widget)
-//
-//        views.setTextViewText(R.id.widget_last_update, PrefManager(context).getLastUpdate())
-//        views.setTextViewText(R.id.widget_update_type, "Auto")
-//        views.setTextViewText(R.id.widget_current_update, getCurrentTime())
-//        views.setTextViewText(R.id.widget_total_manual_update,  PrefManager(context).getManualUpdate().toString())
-//        views.setTextViewText(R.id.widget_total_auto_update,  PrefManager(context).getAutoUpdate().toString())
-//
-//        PrefManager(context).setLastUpdate(PrefManager(context).getCurrentUpdate())
-//        PrefManager(context).setCurrentUpdate(getCurrentTime())
-//        PrefManager(context).setAutoUpdate()
-//
-//        showSimpleNotification(context, "Auto Update", "Home Screen Widget Auto Updated at ${getCurrentTime()}")
-//
-//        AppWidgetManager.getInstance(context).updateAppWidget(ComponentName(context, AppWidget::class.java), views)
-//
-//    }
+    private fun notifyData(context: Context) {
+
+        val databaseHandler = DatabaseHelper(context)
+        val smartRtn = databaseHandler.getSmartRoutine()
+        if(smartRtn.size != 0){
+
+            val calendar = Calendar.getInstance()
+
+            when (val day = calendar.time.toString().substring(0,3).toLowerCase(Locale.getDefault())
+            ) {
+
+                "sat" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+                "sun" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+                "mon" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+                "tue" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+                "wed" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+                "thu" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+                "fri" -> {
+                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase(
+                        //Locale.ROOT
+                    ).contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+                }
+            }
+
+        }
+    }
 
 }

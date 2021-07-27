@@ -113,26 +113,29 @@
 
 
 
-        <service
-            android:name=".Services.SrNotificationService.NotificationIntentService"
-            android:enabled="true"
-            android:exported="false" />
+<!--        <service-->
+<!--            android:name=".Services.SrNotificationService.NotificationIntentService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false" />-->
 
-        <receiver android:name=".Services.SrNotificationService.NotificationEventReceiver" />
-        <receiver android:name=".Services.SrNotificationService.NotificationServiceStarterReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-                <action android:name="android.intent.action.TIME_SET" />
-            </intent-filter>
-        </receiver>
+<!--        <receiver android:name=".Services.SrNotificationService.NotificationEventReceiver" />-->
+<!--        <receiver android:name=".Services.SrNotificationService.NotificationServiceStarterReceiver">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+<!--                <action android:name="android.intent.action.TIMEZONE_CHANGED" />-->
+<!--                <action android:name="android.intent.action.TIME_SET" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
 
-        <receiver android:name=".Services.SampleBootReceiver"
-            android:enabled="true">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
-        </receiver>
+<!--        <receiver android:name=".Services.SampleBootReceiver"-->
+<!--            android:enabled="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED"/>-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+
+
+
 
 
         <!--A BroadcastReceiver

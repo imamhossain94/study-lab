@@ -19,73 +19,73 @@ import com.newage.studlab.Services.SrNotificationService.NotificationEventReceiv
 import java.text.SimpleDateFormat
 import java.util.*
 
-class SampleBootReceiver : BroadcastReceiver() {
-
-    private var alarmMgr: AlarmManager? = null
-    private lateinit var alarmIntent: PendingIntent
-
-
-
-    override fun onReceive(context: Context, intent: Intent) {
-        if (intent.action == "android.intent.action.BOOT_COMPLETED") {
-
-            val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as? AlarmManager
-            val pendingIntent = PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_NO_CREATE)
-
-            if (pendingIntent != null && alarmManager != null) {
-                alarmManager.cancel(pendingIntent)
-            }
-
-            alarmMgr?.setInexactRepeating(
-                AlarmManager.ELAPSED_REALTIME_WAKEUP,
-                SystemClock.elapsedRealtime() + AlarmManager.INTERVAL_HALF_HOUR,
-                AlarmManager.INTERVAL_HALF_HOUR,
-                alarmIntent
-            )
-
-            val action = intent.action
-            if ("ACTION_START" == action) {
-                notifyData(context)
-            }
-        }
-    }
-
-    fun notifyData(context:Context) {
-
-        val databaseHandler = DatabaseHelper(context)
-        val smartRtn = databaseHandler.getSmartRoutine()
-        if(smartRtn.size != 0){
-
-            val calendar = Calendar.getInstance()
-
-            when (val day = calendar.time.toString().substring(0,3).toLowerCase()) {
-
-                "sat" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-                "sun" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-                "mon" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-                "tue" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-                "wed" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-                "thu" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-                "fri" -> {
-                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
-                }
-            }
-
-        }
-    }
-}
+//class SampleBootReceiver : BroadcastReceiver() {
+//
+//    private var alarmMgr: AlarmManager? = null
+//    private lateinit var alarmIntent: PendingIntent
+//
+//
+//
+//    override fun onReceive(context: Context, intent: Intent) {
+//        if (intent.action == "android.intent.action.BOOT_COMPLETED") {
+//
+//            val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as? AlarmManager
+//            val pendingIntent = PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_NO_CREATE)
+//
+//            if (pendingIntent != null && alarmManager != null) {
+//                alarmManager.cancel(pendingIntent)
+//            }
+//
+//            alarmMgr?.setInexactRepeating(
+//                AlarmManager.ELAPSED_REALTIME_WAKEUP,
+//                SystemClock.elapsedRealtime() + AlarmManager.INTERVAL_HALF_HOUR,
+//                AlarmManager.INTERVAL_HALF_HOUR,
+//                alarmIntent
+//            )
+//
+//            val action = intent.action
+//            if ("ACTION_START" == action) {
+//                notifyData(context)
+//            }
+//        }
+//    }
+//
+//    fun notifyData(context:Context) {
+//
+//        val databaseHandler = DatabaseHelper(context)
+//        val smartRtn = databaseHandler.getSmartRoutine()
+//        if(smartRtn.size != 0){
+//
+//            val calendar = Calendar.getInstance()
+//
+//            when (val day = calendar.time.toString().substring(0,3).toLowerCase()) {
+//
+//                "sat" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//                "sun" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//                "mon" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//                "tue" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day)&& s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//                "wed" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//                "thu" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//                "fri" -> {
+//                    NotificationService().runNotification(smartRtn.filter { s -> s.Day.toLowerCase().contains(day) && s.Subject_Code != "" } as ArrayList<SmartRoutine>,day)
+//                }
+//            }
+//
+//        }
+//    }
+//}
 
 class NotificationService {
 
@@ -107,7 +107,7 @@ class NotificationService {
 
         val pendingIntent = PendingIntent.getActivity(
             appContext,
-            0, intent, PendingIntent.FLAG_UPDATE_CURRENT
+            0, intent, 0//PendingIntent.FLAG_UPDATE_CURRENT
         )
 
         contentView!!.setOnClickPendingIntent(R.id.notification_button, pendingIntent)
@@ -562,9 +562,23 @@ class NotificationService {
                 }
             }
             builtin()
+        }else{
+            contentView!!.setTextViewText(R.id.c_code1, "No class for today")
+            contentView!!.setTextViewText(
+                R.id.c_room1,
+                "Do extra activities"
+            )
+            contentView!!.setTextViewText(R.id.c_time1, "good luck")
+
+
+            contentView!!.setViewVisibility(R.id.block1, View.VISIBLE)
+            contentView!!.setViewVisibility(R.id.block2, View.GONE)
+            contentView!!.setViewVisibility(R.id.block3, View.GONE)
+            contentView!!.setViewVisibility(R.id.block4, View.GONE)
+            contentView!!.setViewVisibility(R.id.block5, View.GONE)
         }
 
-
+        builtin()
     }
 
     private fun builtin(){

@@ -40,7 +40,7 @@ import com.newage.studlab.Model.UserModel.Users
 import com.newage.studlab.Plugins.StudLabAssistant.Companion.oldState
 import com.newage.studlab.Plugins.StudLabAssistant.Companion.setIntroClickedState
 import com.newage.studlab.R
-import com.newage.studlab.Services.SampleBootReceiver
+//import com.newage.studlab.Services.SampleBootReceiver
 import com.newage.studlab.Services.SrNotificationService.NotificationEventReceiver
 
 import io.github.tonnyl.light.Light

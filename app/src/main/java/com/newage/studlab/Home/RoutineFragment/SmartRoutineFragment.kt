@@ -39,6 +39,7 @@ import com.newage.studlab.Model.RoutineModel.RoutineConfig
 import com.newage.studlab.Model.UserModel.Users
 import com.newage.studlab.Plugins.StudLabGenerate
 import com.newage.studlab.R
+import com.newage.studlab.Services.AlarmBroadcastReceiver
 import com.newage.studlab.Services.SrNotificationService.NotificationEventReceiver
 
 
@@ -96,11 +97,18 @@ class SmartRoutineFragment : Fragment() {
 
     lateinit var adapter: RoutineDayRecyclerViewAdapter
 
+    override fun onStart() {
+        super.onStart()
+        //AlarmBroadcastReceiver().setAlarm(appContext)
+    }
+
+
     @SuppressLint("DefaultLocale", "SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        NotificationEventReceiver.setupAlarm(appContext)
+        //NotificationEventReceiver.setupAlarm(appContext)
+        AlarmBroadcastReceiver().setAlarm(appContext)
 
         logInApi = annexApis!!.annexLogin
         routineApi = annexApis!!.annexRoutine
