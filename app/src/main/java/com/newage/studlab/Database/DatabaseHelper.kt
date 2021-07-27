@@ -16,6 +16,8 @@ import com.newage.studlab.Model.UserModel.Users
 
 
 class DatabaseHelper(context: Context): SQLiteOpenHelper(context,DATABASE_NAME,null,DATABASE_VERSION) {
+
+
     companion object {
 
         private const val DATABASE_VERSION = 1

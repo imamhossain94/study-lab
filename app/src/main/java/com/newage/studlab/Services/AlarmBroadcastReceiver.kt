@@ -32,6 +32,7 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
 
         // Put here YOUR code.
         notifyData(appContext)
+        Toast.makeText(context, "Alarm Received!!", Toast.LENGTH_SHORT).show()
 
         wakeLock.release()
     }

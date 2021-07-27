@@ -1,9 +1,11 @@
 package com.newage.studlab.Application
 
+//import com.newage.studlab.Services.SampleBootReceiver
+
+import android.app.ActivityManager
 import android.app.Application
-import android.content.ComponentName
 import android.content.Context
-import android.content.pm.PackageManager
+import android.os.Process
 import android.widget.Toast
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
@@ -11,9 +13,12 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.FirebaseFirestoreSettings
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.kknirmale.networkhandler.config.NetworkConfig
+import com.newage.studlab.BuildConfig.APPLICATION_ID
 import com.newage.studlab.Database.DatabaseHelper
 import com.newage.studlab.Model.Api.AnnexApis
 import com.newage.studlab.Model.AppsInfoModel.HomeInfo
@@ -24,12 +29,10 @@ import com.newage.studlab.Model.Results
 import com.newage.studlab.Model.UserModel.Teacher
 import com.newage.studlab.Model.UserModel.Users
 import com.newage.studlab.Plugins.getJsonDataFromAsset
-//import com.newage.studlab.Services.SampleBootReceiver
+import com.newage.studlab.Services.AlarmBroadcastReceiver
 import com.squareup.picasso.OkHttp3Downloader
 import com.squareup.picasso.Picasso
 import se.simbio.encryption.Encryption
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 
 class StudLab: Application() {
@@ -59,17 +62,31 @@ class StudLab: Application() {
         super.onCreate()
         appContext = applicationContext
 
-        encryption = Encryption.getDefault("comNewAgeStudLab", "anUnofficialApplication", ByteArray(16))
+        encryption = Encryption.getDefault(
+            "comNewAgeStudLab", "anUnofficialApplication", ByteArray(
+                16
+            )
+        )
 
         //for network status
         NetworkConfig.initNetworkConfig(this)
+
+
         FirebaseApp.initializeApp(this)
+        val isMain = isMainProcess(this)
+        if (!isMain) {
+            // other things
+            AlarmBroadcastReceiver().setAlarm(this)
+            return
+        }
+
+        //FirebaseApp.initializeApp(this)
         FirebaseDatabase.getInstance().setPersistenceEnabled(true)
         val scoresRef = FirebaseDatabase.getInstance().getReference("studlab")
         scoresRef.keepSynced(true)
 
         val builder = Picasso.Builder(this)
-        builder.downloader(OkHttp3Downloader(this,Long.MAX_VALUE))
+        builder.downloader(OkHttp3Downloader(this, Long.MAX_VALUE))
         val built = builder.build()
         built.setIndicatorsEnabled(false)
         built.isLoggingEnabled = true
@@ -141,6 +158,22 @@ class StudLab: Application() {
 
     }
 
+
+    private fun isMainProcess(context: Context?): Boolean {
+        if (null == context) {
+            return true
+        }
+        val manager = context.getSystemService(ACTIVITY_SERVICE) as ActivityManager
+        val pid = Process.myPid()
+        for (processInfo in manager.runningAppProcesses) {
+            if (APPLICATION_ID == processInfo.processName && pid == processInfo.pid) {
+                return true
+            }
+        }
+        return false
+    }
+
+
     private fun addResult(){
 
         val js = ""
@@ -152,7 +185,7 @@ class StudLab: Application() {
 
 
         val jsonFileString = getJsonDataFromAsset(this, "llb_intake_36_4th_semester.json")
-        Toast.makeText(this,jsonFileString,Toast.LENGTH_LONG).show()
+        Toast.makeText(this, jsonFileString, Toast.LENGTH_LONG).show()
         // Log.i("data", jsonFileString!!)
 
         val gson = Gson()
@@ -172,7 +205,10 @@ class StudLab: Application() {
     }
 
     private fun studLabLogIn(){
-        FirebaseAuth.getInstance().signInWithEmailAndPassword("studlab@newagebd.com", "~u7t{QD`/[k-2fHR+CbB:rcj;'`Ly`jy")
+        FirebaseAuth.getInstance().signInWithEmailAndPassword(
+            "studlab@newagebd.com",
+            "~u7t{QD`/[k-2fHR+CbB:rcj;'`Ly`jy"
+        )
             .addOnCompleteListener {
                 if (!it.isSuccessful) return@addOnCompleteListener
 
@@ -198,12 +234,13 @@ class StudLab: Application() {
         val ref = FirebaseDatabase.getInstance().getReference("/AnnexApis")
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
-                if(dataSnapshot.exists()){
+                if (dataSnapshot.exists()) {
                     for (productSnapshot in dataSnapshot.children) {
                         annexApis = productSnapshot.getValue(AnnexApis::class.java)
                     }
                 }
             }
+
             override fun onCancelled(databaseError: DatabaseError) {
                 throw databaseError.toException()!!
             }
@@ -216,12 +253,13 @@ class StudLab: Application() {
         val ref = FirebaseDatabase.getInstance().getReference("/AppsInfo")
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
-                if(dataSnapshot.exists()){
+                if (dataSnapshot.exists()) {
                     for (productSnapshot in dataSnapshot.children) {
                         homeInfo = productSnapshot.getValue(HomeInfo::class.java)
                     }
                 }
             }
+
             override fun onCancelled(databaseError: DatabaseError) {
                 throw databaseError.toException()!!
             }
@@ -233,7 +271,7 @@ class StudLab: Application() {
         ref.addValueEventListener(object : ValueEventListener {
 
             override fun onDataChange(dataSnapshot: DataSnapshot) {
-                if(dataSnapshot.exists()){
+                if (dataSnapshot.exists()) {
                     userList.clear()
                     var usr: Users?
                     for (productSnapshot in dataSnapshot.children) {
@@ -243,6 +281,7 @@ class StudLab: Application() {
                     }
                 }
             }
+
             override fun onCancelled(databaseError: DatabaseError) {
                 throw databaseError.toException()!!
             }
@@ -254,7 +293,7 @@ class StudLab: Application() {
         val ref = FirebaseDatabase.getInstance().getReference("/People/Faculty")
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
-                if(dataSnapshot.exists()){
+                if (dataSnapshot.exists()) {
                     facultyMemberList.clear()
                     var mem: Teacher?
                     for (productSnapshot in dataSnapshot.children) {
@@ -264,6 +303,7 @@ class StudLab: Application() {
                     }
                 }
             }
+
             override fun onCancelled(databaseError: DatabaseError) {
                 throw databaseError.toException()!!
             }
@@ -275,13 +315,14 @@ class StudLab: Application() {
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 programList.clear()
-                var program:Program? = null
+                var program: Program? = null
                 for (productSnapshot in dataSnapshot.children) {
                     program = productSnapshot.getValue(Program::class.java)
                     programList.add(program!!)
                     newProgramList.add(program)
                 }
             }
+
             override fun onCancelled(databaseError: DatabaseError) {
                 throw databaseError.toException()
             }
@@ -294,13 +335,14 @@ class StudLab: Application() {
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 courseList.clear()
-                var course:Course? = null
+                var course: Course? = null
                 for (productSnapshot in dataSnapshot.children) {
 
                     course = productSnapshot.getValue(Course::class.java)
                     courseList.add(course!!)
                 }
             }
+
             override fun onCancelled(databaseError: DatabaseError) {
                 throw databaseError.toException()
             }
