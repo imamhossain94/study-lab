@@ -8,7 +8,7 @@ The Study-Lab is an educational application that is developed to support the stu
 
   <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image1.jpg" width="40%"> &nbsp;
   <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image2.jpg" width="40%">
-  <br />
+  <br /><br /><br />
   <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image3.jpg" width="25%"> &nbsp;
   <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image4.jpg" width="25%"> &nbsp;
   <img alt="image" src="https://github.com/imamhossain94/study-lab/blob/main/screenshots/image5.jpg" width="25%">
