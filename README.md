@@ -42,6 +42,7 @@ The Study-Lab is an educational application that is developed to support the stu
 
 ## Feature
 
+* Smart Routine - Auto Update every 1-10 minutes.
 * Studlab library
 * Blood bank
 * Notification
