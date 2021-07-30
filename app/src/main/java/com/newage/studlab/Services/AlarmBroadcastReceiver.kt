@@ -32,7 +32,7 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
 
         // Put here YOUR code.
         notifyData(appContext)
-        Toast.makeText(context, "Alarm Received!!", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(context, "Alarm Received!!", Toast.LENGTH_SHORT).show()
 
         wakeLock.release()
     }
@@ -41,9 +41,9 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val intent = Intent(context, AlarmBroadcastReceiver::class.java)
         val pendingIntent = PendingIntent.getBroadcast(context, 0, intent, 0)
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,System.currentTimeMillis(), (1000 * 60 * 1).toLong(), pendingIntent)
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,System.currentTimeMillis(), (1000 * 60 * 15).toLong(), pendingIntent)
 
-        Toast.makeText(context, "Alarm Service Started!!", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(context, "Alarm Service Started!!", Toast.LENGTH_SHORT).show()
     }
 
     fun cancelAlarm(context: Context) {
