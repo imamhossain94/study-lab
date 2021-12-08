@@ -77,9 +77,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-
-
         activity?.let {
 
            // gridView = it.findViewById(R.id.grid_layout)

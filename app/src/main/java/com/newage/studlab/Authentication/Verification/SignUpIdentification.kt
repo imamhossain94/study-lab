@@ -14,6 +14,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
+import android.util.Log
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.zxing.integration.android.IntentIntegrator
@@ -207,11 +208,11 @@ class SignUpIdentification : Fragment() {
                                 user_prog_or_dept = responseObj.getString("sis_std_prgrm_sn")
                                 user_faculty_name = userPostToFaculty(user_prog_or_dept)
                                 user_shift_or_post
-                                user_intake = responseObj.getString("sis_std_intk")
+                                user_intake = ""//responseObj.getString("sis_std_intk")
                                 //user_section
                                 user_address = responseObj.getString("sis_std_Bplace")
                                 user_status
-                                user_blood = responseObj.getString("sis_std_blood")
+                                user_blood = ""//responseObj.getString("sis_std_blood")
 
                                 if(user_gender == "M" || user_gender == "Male"){
                                     user_image = "https://firebasestorage.googleapis.com/v0/b/studlab.appspot.com/o/user%20image%2FAvater%2Fsm0.png?alt=media&token=875f7545-28ed-4c5c-a06f-18379cb2d52b"
@@ -226,6 +227,7 @@ class SignUpIdentification : Fragment() {
                                 check = false
                                 activity!!.runOnUiThread {
                                     search.setImageResource(R.drawable.database_error)
+                                    Log.d("lal", e.toString())
                                     if(e.message?.contains("org")!!){
                                         view?.let {
                                             make(it, "You are not a registered student of BUBT.", R.drawable.database_error_32,R.color.colorRed, R.color.colorWhite,5000,R.drawable.tick_icon_16,R.color.colorWhite)
@@ -247,7 +249,7 @@ class SignUpIdentification : Fragment() {
                     when {
                         check -> {
                             search.setImageResource(R.drawable.database_success)
-                            //Toast.makeText(requireContext(), user_name,Toast.LENGTH_LONG).show()
+//                            Toast.makeText(requireContext(), user_name,Toast.LENGTH_LONG).show()
 
                             stepView.go(1,true)
 
