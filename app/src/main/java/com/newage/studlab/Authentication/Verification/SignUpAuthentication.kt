@@ -1,5 +1,6 @@
 package com.newage.studlab.Authentication.Verification
 
+import android.util.Log
 import android.annotation.SuppressLint
 import android.app.ProgressDialog
 import android.content.Intent
@@ -83,7 +84,7 @@ class SignUpAuthentication : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        loginApi = annexApis!!.annexVerify
+        loginApi = annexApis!!.annexLogin
 
         progress = ProgressDialog(context!!).apply {
             setTitle("Loading....")
@@ -126,7 +127,7 @@ class SignUpAuthentication : Fragment() {
         annexPass.addTextChangedListener(object :
             TextWatcher { override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
             if (s.length >= 2) {
-                password = annexPass.text.toString()
+                password = annexPass.text.toString().trim()
                 nextButton.background = resources.getDrawable(R.drawable.intro_button_green)
                 nextButton.isEnabled = true
             }else{
@@ -147,14 +148,15 @@ class SignUpAuthentication : Fragment() {
         progress.setMessage("Please wait.")
 
         val url = "${loginApi}id=$id&pass=$pass"
+        //val url = "https://bubt.herokuapp.com/bubt/v1/login?id=17181103084&pass=imamagun123"
 
         var check = false
         var phpSessionId = ""
 
         val builder = OkHttpClient.Builder()
-        builder.connectTimeout(15, TimeUnit.SECONDS)
-        builder.readTimeout(15, TimeUnit.SECONDS)
-        builder.writeTimeout(15, TimeUnit.SECONDS)
+        builder.connectTimeout(60, TimeUnit.SECONDS)
+        builder.readTimeout(60, TimeUnit.SECONDS)
+        builder.writeTimeout(60, TimeUnit.SECONDS)
 
         typeHttp = builder.build()
 
@@ -187,6 +189,7 @@ class SignUpAuthentication : Fragment() {
                                 check = false
                                 activity!!.runOnUiThread {
                                     progress.dismiss()
+                                    Log.d("lal", e.toString())
                                     Toasty.error(requireContext(), "ID or Password is invalid!", Toast.LENGTH_SHORT, true).show()
                                 }
                             }

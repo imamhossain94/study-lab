@@ -227,7 +227,7 @@ class SignUpIdentification : Fragment() {
                                 check = false
                                 activity!!.runOnUiThread {
                                     search.setImageResource(R.drawable.database_error)
-                                    Log.d("lal", e.toString())
+//                                    Log.d("lal", e.toString())
                                     if(e.message?.contains("org")!!){
                                         view?.let {
                                             make(it, "You are not a registered student of BUBT.", R.drawable.database_error_32,R.color.colorRed, R.color.colorWhite,5000,R.drawable.tick_icon_16,R.color.colorWhite)
