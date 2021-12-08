@@ -38,6 +38,7 @@ class SignUpInformation : Fragment() {
 
     lateinit var userInformation: TextView
 
+    lateinit var userIntakeText: TextView
     lateinit var userSemesterText: TextView
     lateinit var userSectionText: TextView
     lateinit var userShiftText: TextView
@@ -45,6 +46,7 @@ class SignUpInformation : Fragment() {
 
     lateinit var userContactNo:EditText
 
+    lateinit var userIntakeSpinner: Spinner
     lateinit var userSemesterSpinner: Spinner
     lateinit var userShiftSpinner: Spinner
     lateinit var userSectionSpinner: Spinner
@@ -62,6 +64,7 @@ class SignUpInformation : Fragment() {
 
             userInformation = it.findViewById(R.id.user_information)
 
+            userIntakeText = it.findViewById(R.id.user_intake_textview)
             userSemesterText = it.findViewById(R.id.user_semester_textview)
             userSectionText = it.findViewById(R.id.user_section_text_view)
             userShiftText = it.findViewById(R.id.user_shift_textview)
@@ -70,6 +73,7 @@ class SignUpInformation : Fragment() {
 
             userContactNo = it.findViewById(R.id.user_contact_edit_text)
 
+            userIntakeSpinner = it.findViewById(R.id.user_intake_spinner)
             userSemesterSpinner = it.findViewById(R.id.user_semester_spinner)
             userShiftSpinner = it.findViewById(R.id.user_shift_spinner)
             userSectionSpinner = it.findViewById(R.id.user_section_spinner)
@@ -101,9 +105,23 @@ class SignUpInformation : Fragment() {
     }
 
     private fun handleSpinners(){
+        val intake = resources.getStringArray(R.array.intakes)
         val semester = resources.getStringArray(R.array.semesters)
         val section = resources.getStringArray(R.array.section)
         val shift = resources.getStringArray(R.array.shift_v2)
+
+        val intakeSpinner = ArrayAdapter.createFromResource(appContext,R.array.intakes,R.layout.spinner_item_signup)
+        intakeSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        userIntakeSpinner.adapter = intakeSpinner
+        userIntakeSpinner.onItemSelectedListener = object :
+            AdapterView.OnItemSelectedListener{
+            override fun onNothingSelected(parent: AdapterView<*>?) {}
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                //val order = sortBy[position]
+                userIntakeText.text = intake[position]
+                SignUpIdentification.user_intake = intake[position]
+            }
+        }
 
         val semesterSpinner = ArrayAdapter.createFromResource(appContext,R.array.semesters,R.layout.spinner_item_signup)
         semesterSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
